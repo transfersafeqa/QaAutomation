@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="org.testng:testng-spring:4.7" type="repository">
+    <properties maven-id="org.testng:testng-spring:4.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8.1/junit-3.8.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/qdox/qdox/1.5/qdox-1.5.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/bsh/bsh/2.0b1/bsh-2.0b1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/1.2.8/spring-jdbc-1.2.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-dao/1.2.8/spring-dao-1.2.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/1.2.8/spring-context-1.2.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/1.2.8/spring-aop-1.2.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/1.2.8/spring-beans-1.2.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/1.2.8/spring-core-1.2.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.1/commons-collections-3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
