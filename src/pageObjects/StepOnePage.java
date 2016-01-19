@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import Utilities.ExcelUtils;
+import Utilities.*;
 
 import elementLocators.LocatorsForOap;
 import java.util.UUID;
@@ -30,13 +31,17 @@ public class StepOnePage extends PageObjectBase {
 
     public StepOnePage borrowerHasLo() throws Exception {
 
+        TestParameters testdata = new TestParameters();
+
         driver.findElement(By.xpath("//label[@for='LoanPurpose_prequal']")).click();
         driver.findElement(LocatorsForOap.purchasePriceBox).clear();
        //driver.findElement(By.linktest("PreQualify")).click()
+        int purchasePrice = testdata.getPurchasePrice();
+
         driver.findElement(LocatorsForOap.purchasePriceBox).sendKeys("300000");
 
         driver.findElement(LocatorsForOap.downPaymentBox).clear();
-        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys("100000");
+        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys("70000");
 
         new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText("Illinois");
 
@@ -48,11 +53,12 @@ public class StepOnePage extends PageObjectBase {
         driver.findElement(LocatorsForOap.phoneNumber).sendKeys("5555555555");
         driver.findElement(LocatorsForOap.firstNameBox).clear();
 
-        String FirstName = ExcelUtils.getCellData(1, 0);
-        driver.findElement(LocatorsForOap.firstNameBox).sendKeys("Pitt");
 
-        String LastName = ExcelUtils.getCellData(1, 1);
-        driver.findElement(LocatorsForOap.lastNameBox).sendKeys("Rock");
+
+        driver.findElement(LocatorsForOap.firstNameBox).sendKeys("Ronal");
+
+
+        driver.findElement(LocatorsForOap.lastNameBox).sendKeys("Bogus");
         //driver.findElement(LocatorsForOap.emailBox).sendKeys("testvppage102@yopmail.com");
 
         driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 4)) + "testfolder@yopmail.com");
@@ -109,13 +115,13 @@ public class StepOnePage extends PageObjectBase {
 
         //driver.findElement(LocatorsForOap.firstNameBox).clear();
         //String FirstName = ExcelUtils.getCellData(3, 0);
-        driver.findElement(LocatorsForOap.firstNameBox).sendKeys("FirstName");
+        driver.findElement(LocatorsForOap.firstNameBox).sendKeys("Ronal");
 
         //String LastName = ExcelUtils.getCellData(3, 1);
-        driver.findElement(LocatorsForOap.lastNameBox).sendKeys("LastName");
-        //driver.findElement(LocatorsForOap.emailBox).sendKeys("janukasangroula1011@gmail.com");
+        driver.findElement(LocatorsForOap.lastNameBox).sendKeys("Bogus");
+       // driver.findElement(LocatorsForOap.emailBox).sendKeys("janukasangroula200111@gmail.com");
 
-        driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 2)) + "checkemail22@opensourceqa.net");
+        driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 2)) + "tester@example.com");
         driver.findElement(LocatorsForOap.loanOfficerNoButton).click();
 
         driver.findElement(LocatorsForOap.stepOneSubmitButton).click();

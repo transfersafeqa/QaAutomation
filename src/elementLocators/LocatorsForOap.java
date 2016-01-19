@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
  */
 public class LocatorsForOap {
 
+
        public static By applyButton = By.linkText("Get started now");
        public static By purchaseTab = By.id("LoanPurpose_purchase");
        public static By refinanceTab = By.id("LoanPurpose_refinance");
@@ -38,6 +39,10 @@ public class LocatorsForOap {
        public static By pricingPagePropertyUseDropDown =  By.id("propertyUse");
        public static By pricingPageEscrowDropDown = By.id("escrow");
        public static By pricingPage30YearsButton = By.xpath("//div[@id='conv-30-fixed']/div/div[2]/table/tbody/tr[3]/td[6]/button");
+       public static By pricingPageThirtyFixButton = By.xpath("//button[@class='button-primary']");
+       public static By pricingPageSkipButton = By.xpath("//button[contains(.,'Skip this step for now')]");
+
+       public static By pricingPageSelectButton = By.cssSelector("td.col-select-button > button.button-primary");
 
 
 

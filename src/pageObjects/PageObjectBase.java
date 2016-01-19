@@ -12,14 +12,5 @@ public class PageObjectBase {
         this.driver = driver;
     }
 
-   // public WebDriver getDriver(){
-       // return driver;
-   // }
 
-
-
-  //  public HomePage navigateToWebApp(){
-        //driver.navigate().to("http://www.gr-dev.com");
-      //  return new HomePage(driver);
-    //}
 }

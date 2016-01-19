@@ -1,5 +1,6 @@
 package pageObjects;
 
+import elementLocators.LocatorsForOap;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,10 +16,12 @@ public class PricingPage extends PageObjectBase {
         super(driver);
     }
     public PricingPage selectLoan() throws InterruptedException{
-        WebDriverWait wait = new WebDriverWait(driver, 15);
+        WebDriverWait wait = new WebDriverWait(driver, 30);
 
-       WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("tr.ng-scope.best-rate > td.col-select-button > button.button-primary")));
-       driver.findElement(By.cssSelector("tr.ng-scope.best-rate > td.col-select-button > button.button-primary")).click();
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(LocatorsForOap.pricingPageSelectButton));
+
+        driver.findElement(LocatorsForOap.pricingPageSelectButton).click();
+
 
         return new PricingPage(driver);
     }
