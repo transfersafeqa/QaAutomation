@@ -30,18 +30,24 @@ public class BankInfoPage extends PageObjectBase {
     }
     public BankInfoPage jointAccountWithCoBorrower(){
 
-        driver.findElement(By.xpath("//label[contains(.,'Ronal Bogus')]")).click();
+        //driver.findElement(By.id("BorrowerTypeId_both")).click();
+       // driver.findElement(By.cssSelector("#BorrowerTypeId_both")).click();
+       ;
         //driver.findElement(By.xpath("//label[@class='radio']")).click();
 
         WebDriverWait wait = new WebDriverWait(driver, 15);
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("DepositAccountTypeId")));
 
+       /// driver.findElement(By.xpath("//form[@id='formAddAsset']/fieldset/div/input[3]")).click();
+        //driver.findElement(By.xpath("//label[contains(.,'Andy America')]")).click();
         driver.findElement(By.xpath("//select[@id='DepositAccountTypeId']")).click();
         driver.findElement(By.xpath("//option[contains(.,'Checking Account')]")).click();
         driver.findElement(By.xpath("//input[@id='Institution']")).sendKeys("Chase bank");
         driver.findElement(By.xpath("//input[@name='AccountNumber']")).sendKeys("9875284");
-        driver.findElement(By.xpath("//input[@id='Amount']")).sendKeys("300000");
+        driver.findElement(By.xpath("//input[@id='Amount']")).sendKeys("200000");
         driver.findElement(By.xpath("//label[contains(.,'No')]")).click();
+       // driver.findElement(By.xpath("//form[@id='formAddAsset']/fieldset/div/input[3]")).click();
+        driver.findElement(By.xpath("//label[contains(.,'Andy America')]")).click();
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
 

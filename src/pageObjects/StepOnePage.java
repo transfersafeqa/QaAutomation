@@ -20,57 +20,42 @@ public class StepOnePage extends PageObjectBase {
         super(driver);
     }
 
-    public String makeRandromYOPMail() {
-        driver.get("http://www.yopmail.com/en/");
 
-        driver.findElement(By.cssSelector("a[title=\"Disposable Email Address Generator creates a new address for you in one click!\"] > span")).click();
 
-        return driver.findElement(By.id("login")).getAttribute("value");
 
-    }
 
     public StepOnePage borrowerHasLo() throws Exception {
 
-        TestParameters testdata = new TestParameters();
 
-        driver.findElement(By.xpath("//label[@for='LoanPurpose_prequal']")).click();
+
         driver.findElement(LocatorsForOap.purchasePriceBox).clear();
-       //driver.findElement(By.linktest("PreQualify")).click()
-        int purchasePrice = testdata.getPurchasePrice();
-
-        driver.findElement(LocatorsForOap.purchasePriceBox).sendKeys("300000");
+        driver.findElement(LocatorsForOap.purchasePriceBox).sendKeys(TestParameters.PurchasePrice);
 
         driver.findElement(LocatorsForOap.downPaymentBox).clear();
-        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys("70000");
+        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys(TestParameters.DownPaymentAmount);
 
-        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText("Illinois");
+        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText(TestParameters.PropertyState);
 
         driver.findElement(LocatorsForOap.selfSelectedCreditScore).click();
         driver.findElement(LocatorsForOap.excellentCreditScore).click();
 
-
         driver.findElement(LocatorsForOap.phoneNumber).clear();
-        driver.findElement(LocatorsForOap.phoneNumber).sendKeys("5555555555");
+        driver.findElement(LocatorsForOap.phoneNumber).sendKeys(TestParameters.PhoneNumber);
+
         driver.findElement(LocatorsForOap.firstNameBox).clear();
+        driver.findElement(LocatorsForOap.firstNameBox).sendKeys(TestParameters.FirstName);
 
 
+        driver.findElement(LocatorsForOap.lastNameBox).sendKeys(TestParameters.LastName);
+        driver.findElement(LocatorsForOap.emailBox).sendKeys((TestParameters.Yopmail) + (UUID.randomUUID().toString().replace("-", "").substring(0, 3) + ".com"));
 
-        driver.findElement(LocatorsForOap.firstNameBox).sendKeys("Ronal");
-
-
-        driver.findElement(LocatorsForOap.lastNameBox).sendKeys("Bogus");
-        //driver.findElement(LocatorsForOap.emailBox).sendKeys("testvppage102@yopmail.com");
-
-        driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 4)) + "testfolder@yopmail.com");
-
-
-        //String  testEmail = driver.findElement(LocatorsForOap.emailBox).getAttribute("value");
 
 
         driver.findElement(LocatorsForOap.loanOfficerYesButton).click();
         driver.findElement(LocatorsForOap.loanOfficerNameBox).clear();
-        driver.findElement(LocatorsForOap.loanOfficerNameBox).sendKeys("john sample");
-        driver.findElement(By.xpath("//a[contains(.,'John Sample')]")).click();
+
+        driver.findElement(LocatorsForOap.loanOfficerNameBox).sendKeys(TestParameters.TestLoanOfficer);
+        driver.findElement(LocatorsForOap.selectLOButton).click();
 
         driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
 
@@ -82,16 +67,15 @@ public class StepOnePage extends PageObjectBase {
 
     public StepOnePage existingUserLogin(){
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        driver.findElement(By.id("email-address")).clear();
-        driver.findElement(By.id("email-address")).sendKeys("rajeshx@yahoo.com");
 
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        driver.findElement(LocatorsForOap.existingUserEmailBox).clear();
+        driver.findElement(LocatorsForOap.existingUserEmailBox).sendKeys(TestParameters.ExistingUserEmail);
+        driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
 
-        driver.findElement(By.xpath("//input[@type='password']")).sendKeys("password1");
+        driver.findElement(LocatorsForOap.existingUserPasswordBox).sendKeys(TestParameters.ExistingUserPassword);
+        driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
 
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
-
-
+        driver.findElement(LocatorsForOap.LoanCenterTSButton).click();
 
         return new StepOnePage(driver);
 
@@ -99,65 +83,188 @@ public class StepOnePage extends PageObjectBase {
     public StepOnePage borrowerHasNoLo() throws  Exception{
         driver.findElement(LocatorsForOap.purchasePriceBox).clear();
 
-        driver.findElement(LocatorsForOap.purchasePriceBox).sendKeys("300000");
+        driver.findElement(LocatorsForOap.purchasePriceBox).sendKeys(TestParameters.PurchasePrice);
 
         driver.findElement(LocatorsForOap.downPaymentBox).clear();
-        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys("100000");
+        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys(TestParameters.DownPaymentAmount);
 
-        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText("Illinois");
-        driver.findElement(By.xpath("//select[@id='SelfSelectedCreditScore']")).click();
-        driver.findElement(By.xpath("//option[@value='ExcellentV2']")).click();
+        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText(TestParameters.PropertyState);
+        driver.findElement(LocatorsForOap.selfSelectedCreditScore).click();
+        driver.findElement(LocatorsForOap.excellentCreditScore).click();
 
-        //driver.findElement(By.xpath("//option[contains(.,'Good (720 - 759)')]")).click();
+
 
         driver.findElement(LocatorsForOap.phoneNumber).clear();
-        driver.findElement(LocatorsForOap.phoneNumber).sendKeys("3129408783");
+        driver.findElement(LocatorsForOap.phoneNumber).sendKeys(TestParameters.PhoneNumber);
 
-        //driver.findElement(LocatorsForOap.firstNameBox).clear();
-        //String FirstName = ExcelUtils.getCellData(3, 0);
-        driver.findElement(LocatorsForOap.firstNameBox).sendKeys("Ronal");
 
-        //String LastName = ExcelUtils.getCellData(3, 1);
-        driver.findElement(LocatorsForOap.lastNameBox).sendKeys("Bogus");
-       // driver.findElement(LocatorsForOap.emailBox).sendKeys("janukasangroula200111@gmail.com");
+        driver.findElement(LocatorsForOap.firstNameBox).sendKeys(TestParameters.DuFirstName);
 
-        driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 2)) + "tester@example.com");
+
+        driver.findElement(LocatorsForOap.lastNameBox).sendKeys(TestParameters.DuLastName);
+       // driver.findElement(LocatorsForOap.emailBox).sendKeys("v3test-du-@hotmail.com");
+
+
+        driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 3)) + "tester@yopmail.com");
         driver.findElement(LocatorsForOap.loanOfficerNoButton).click();
 
         driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
 
         return new StepOnePage(driver);
     }
-    public StepOnePage BorrowerFromVpPageStepOne()throws  Exception{
+    public StepOnePage BorrowerFromVpPageStepOne()throws  Exception {
 
 
         driver.findElement(LocatorsForOap.purchasePriceBox).clear();
-        driver.findElement(LocatorsForOap.purchasePriceBox).sendKeys("300000");
+        driver.findElement(LocatorsForOap.purchasePriceBox).sendKeys(TestParameters.PurchasePrice);
 
         driver.findElement(LocatorsForOap.downPaymentBox).clear();
-        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys("100000");
+        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys(TestParameters.DownPaymentAmount);
 
-        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText("Illinois");
+        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText(TestParameters.PropertyState);
 
         driver.findElement(LocatorsForOap.selfSelectedCreditScore).click();
         driver.findElement(LocatorsForOap.excellentCreditScore).click();
 
 
         driver.findElement(LocatorsForOap.phoneNumber).clear();
-        driver.findElement(LocatorsForOap.phoneNumber).sendKeys("7735555555");
+        driver.findElement(LocatorsForOap.phoneNumber).sendKeys(TestParameters.PhoneNumber);
 
         driver.findElement(LocatorsForOap.firstNameBox).clear();
-        //String FirstName = ExcelUtils.getCellData(2, 0);
-        driver.findElement(LocatorsForOap.firstNameBox).sendKeys("Ronal");
 
-        //String LastName = ExcelUtils.getCellData(2, 1);
-        driver.findElement(LocatorsForOap.lastNameBox).sendKeys("Bogus");
-       // driver.findElement(LocatorsForOap.emailBox).sendKeys("aditisangroula@gmail.com");
+        driver.findElement(LocatorsForOap.firstNameBox).sendKeys(TestParameters.FirstName);
 
-        driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 3)) + "test@example.com");
+
+        driver.findElement(LocatorsForOap.lastNameBox).sendKeys(TestParameters.LastName);
+
+        driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 3)) + TestParameters.TestEmail);
         driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
         return new StepOnePage(driver);
 
+    }
+
+        public StepOnePage RefiStepOnePage() throws Exception{
+
+            driver.findElement(LocatorsForOap.refiTab).click();
+
+            driver.findElement(LocatorsForOap.refiLoanAmountBox).clear();
+            driver.findElement(LocatorsForOap.refiLoanAmountBox).sendKeys(TestParameters.RefiLoanAmount);
+
+            driver.findElement(LocatorsForOap.refiPropertyValue).clear();
+            driver.findElement(LocatorsForOap.refiPropertyValue).sendKeys(TestParameters.RefiCurrentPropertyValue);
+
+            new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText(TestParameters.PropertyState);
+
+            driver.findElement(LocatorsForOap.selfSelectedCreditScore).click();
+            driver.findElement(LocatorsForOap.excellentCreditScore).click();
+
+
+            driver.findElement(LocatorsForOap.phoneNumber).clear();
+            driver.findElement(LocatorsForOap.phoneNumber).sendKeys(TestParameters.PhoneNumber);
+            driver.findElement(LocatorsForOap.firstNameBox).clear();
+
+
+
+            driver.findElement(LocatorsForOap.firstNameBox).sendKeys(TestParameters.FirstName);
+
+
+            driver.findElement(LocatorsForOap.lastNameBox).sendKeys(TestParameters.LastName);
+
+            driver.findElement(LocatorsForOap.emailBox).sendKeys(("v3test-du-@yopmail") + (UUID.randomUUID().toString().replace("-", "").substring(0, 3) + ".com"));
+
+             //driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 4)) + "testfolder@yopmail.com");
+
+
+            //String  testEmail = driver.findElement(LocatorsForOap.emailBox).getAttribute("value");
+
+
+            driver.findElement(LocatorsForOap.loanOfficerYesButton).click();
+            driver.findElement(LocatorsForOap.loanOfficerNameBox).clear();
+            driver.findElement(LocatorsForOap.loanOfficerNameBox).sendKeys(TestParameters.TestLoanOfficer);
+            driver.findElement(By.xpath("//a[contains(.,'John Sample')]")).click();
+
+            driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
+
+            return new StepOnePage(driver);
+
+
+        }
+    public StepOnePage LoanWithCoBorrower() throws Exception {
+
+        driver.findElement(LocatorsForOap.purchasePriceBox).clear();
+        driver.findElement(LocatorsForOap.purchasePriceBox).sendKeys(TestParameters.PurchasePrice);
+
+        driver.findElement(LocatorsForOap.downPaymentBox).clear();
+        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys(TestParameters.DownPaymentAmount);
+
+        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText(TestParameters.PropertyState);
+
+        driver.findElement(LocatorsForOap.selfSelectedCreditScore).click();
+        driver.findElement(LocatorsForOap.excellentCreditScore).click();
+
+        driver.findElement(LocatorsForOap.phoneNumber).clear();
+        driver.findElement(LocatorsForOap.phoneNumber).sendKeys(TestParameters.PhoneNumber);
+
+        driver.findElement(LocatorsForOap.firstNameBox).clear();
+        driver.findElement(LocatorsForOap.firstNameBox).sendKeys(TestParameters.BorrowerFirstName);
+
+
+        driver.findElement(LocatorsForOap.lastNameBox).sendKeys(TestParameters.BorrowerLastName);
+        driver.findElement(LocatorsForOap.emailBox).sendKeys(("v3test-lp-@yopmail") + (UUID.randomUUID().toString().replace("-", "").substring(0, 3) + ".com"));
+
+
+
+        driver.findElement(LocatorsForOap.loanOfficerYesButton).click();
+        driver.findElement(LocatorsForOap.loanOfficerNameBox).clear();
+
+        driver.findElement(LocatorsForOap.loanOfficerNameBox).sendKeys(TestParameters.TestLoanOfficer);
+        driver.findElement(LocatorsForOap.selectLOButton).click();
+
+        driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
+
+
+        return new StepOnePage(driver);
+    }
+    public StepOnePage DuStepOnePurchaseWithLo() throws Exception {
+
+
+
+        driver.findElement(LocatorsForOap.purchasePriceBox).clear();
+        driver.findElement(LocatorsForOap.purchasePriceBox).sendKeys(TestParameters.PurchasePrice);
+
+        driver.findElement(LocatorsForOap.downPaymentBox).clear();
+        driver.findElement(LocatorsForOap.downPaymentBox).sendKeys(TestParameters.DownPaymentAmount);
+
+        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText(TestParameters.PropertyState);
+
+        driver.findElement(LocatorsForOap.selfSelectedCreditScore).click();
+        driver.findElement(LocatorsForOap.excellentCreditScore).click();
+
+        driver.findElement(LocatorsForOap.phoneNumber).clear();
+        driver.findElement(LocatorsForOap.phoneNumber).sendKeys(TestParameters.PhoneNumber);
+
+        driver.findElement(LocatorsForOap.firstNameBox).clear();
+        driver.findElement(LocatorsForOap.firstNameBox).sendKeys(TestParameters.DuFirstName);
+
+
+        driver.findElement(LocatorsForOap.lastNameBox).sendKeys(TestParameters.DuLastName);
+        driver.findElement(LocatorsForOap.emailBox).sendKeys(("v3test-du-@yopmail") + (UUID.randomUUID().toString().replace("-", "").substring(0, 3) + ".com"));
+
+
+
+        driver.findElement(LocatorsForOap.loanOfficerYesButton).click();
+        driver.findElement(LocatorsForOap.loanOfficerNameBox).clear();
+
+        driver.findElement(LocatorsForOap.loanOfficerNameBox).sendKeys(TestParameters.TestLoanOfficer);
+        driver.findElement(LocatorsForOap.selectLOButton).click();
+
+        driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
+
+        return new StepOnePage(driver);
 
     }
+
+
+
 }
+

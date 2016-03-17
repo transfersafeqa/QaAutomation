@@ -9,6 +9,7 @@ public class LocatorsForOap {
 
        public static By applyButton = By.linkText("Get started now");
        public static By purchaseTab = By.id("LoanPurpose_purchase");
+       public static By refiTab = By.xpath("//label[@for='LoanPurpose_refinance']");
        public static By refinanceTab = By.id("LoanPurpose_refinance");
        public static By refiLoanAmountBox = By.id("AmountLookingToFinance");
        public static By refiPropertyValue = By.id("CurrentPropertyValue");
@@ -19,8 +20,13 @@ public class LocatorsForOap {
        public static By firstNameBox = By.id("FirstName");
        public static By lastNameBox = By.id("LastName");
        public static By emailBox = By.id("Email");
+       public static By selectLOButton = By.xpath("//a[contains(.,'John Sample')]");
        public static By selfSelectedCreditScore = By.xpath("//select[@id='SelfSelectedCreditScore']");
        public static By excellentCreditScore = By.xpath("//option[@value='ExcellentV2']");
+       public static By existingUserEmailBox = By.id("email-address");
+       public static By existingUserPasswordBox = By.xpath("//input[@type='password']");
+       public static By submitButton = By.xpath("//button[@type='submit']");
+       public static By LoanCenterTSButton = By.xpath("//a[@class='button button-primary']");
 
 
        public static By phoneNumber = By.xpath("//input[contains(@data-val-length-min,'14')]");
@@ -88,9 +94,12 @@ public class LocatorsForOap {
        // Property Information page
 
        public static By propertyInfoPurchaseOption = By.xpath("//label[contains(@for,'purchase')]");
+       public static By propertyInfoRefiOption = By.xpath("//label[@for='LoanPurpose_refinance']");
+
        public static By propertyInfoEmployerNotPayingMove = By.xpath("//label[@for='EmployerPaidMove_no']");
+       public static By propertInfoStreetAddress = By.id("Property_Address1");
        public static By propertyInfoCityBox = By.id("Property_City");
-       public static By propertInfoStateId = By.id("Property_StateId");
+       public static By propertyInfoStateId = By.id("Property_StateId");
        public static By propertyInfoSelectIL = By.xpath("//option[@value='IL']");
        public static By propertyInfoZipCode = By.id("Property_Zip");
        public static By propertyInfoSelectPropertyType = By.id("Property_PropertyTypeId");
@@ -102,10 +111,13 @@ public class LocatorsForOap {
        public static By propertyEscrowType = By.id("Property_EscrowTypeId");
        public static By propertyIncludeTaxInsurance = By.xpath("//option[@value='taxins']");
        public static By propertyInfoPageSubmitBtn = By.xpath("//button[@type='submit']");
-
+       public static By refiPropertyOriginalCost = By.id("Property_PropertyOriginalCost");
+       public static By refiProperyAcquiredYear = By.id("Property_PropertyAcquiredYear");
+       public static By refiLoanAgainstProperty = By.id("Property_OtherLoanAgainstPropertyTypeId");
+      // public static By
        //Property Address Conformation page
 
-       public static By propertyAddressConfirm = By.xpath("//button[@type='submit']");
+      // public static By propertyAddressConfirm = By.xpath("//button[@type='submit']");
 
        // Financial Info Page
 
@@ -135,6 +147,8 @@ public class LocatorsForOap {
        public static By createPassword = By.xpath("//input[@name='CreditInputModel.Password']");
        public static By reEnterPassword = By.xpath("//input[@id='CreditInputModel_PasswordConfirm']");
        public static By SsnSubmitButton = By.xpath("//button[@type='submit']");
+       public static By coBorrowwerSsn = By.xpath("//input[@id='CreditInputModel_CoBorrowerSsn']");
+       public static By reEnterCoBorrowerSsn = By.xpath("//input[@id='CreditInputModel_CoBorrowerSsnMatch']");
 
 
 

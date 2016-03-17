@@ -25,4 +25,14 @@ public class PricingPage extends PageObjectBase {
 
         return new PricingPage(driver);
     }
+
+    public PricingPage selectSkipPricing() throws Exception{
+
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(LocatorsForOap.pricingPageSkipButton));
+
+        driver.findElement(LocatorsForOap.pricingPageSkipButton).click();
+        return new PricingPage(driver);
+    }
 }

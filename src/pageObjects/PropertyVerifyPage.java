@@ -1,5 +1,6 @@
 package pageObjects;
 
+import elementLocators.LocatorsForOap;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -12,7 +13,9 @@ public class PropertyVerifyPage extends PageObjectBase {
     }
     public PropertyVerifyPage verifyPropertyAddress() {
 
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        //driver.findElement(LocatorsForOap.submitButton).click();
+
+        driver.findElement(By.xpath("//form[@id='formVerifyAddress']/button")).click();
 
         return new PropertyVerifyPage(driver);
     }

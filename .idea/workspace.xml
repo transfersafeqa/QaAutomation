@@ -2,72 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ae29c4-3c04-4e12-803b-a3d3ab6587ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/apache_mime4j_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_2_47.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Utilities/TestParameters.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/TestData.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testData/TestData.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testData/~$TestData.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/testData/TestData.xlsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/PxElementLocator/LocatorsForPx.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/PxElementLocator/LocatorsForPx.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/Utilities/Constant.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/Utilities/Constant.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/Utilities/ExcelUtils.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/Utilities/ExcelUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/Utilities/WaitForPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/Utilities/WaitForPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/elementLocators/LocatorsForGrDotCom.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/elementLocators/LocatorsForGrDotCom.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/elementLocators/LocatorsForOap.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/elementLocators/LocatorsForOap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/elementLocators/LocatorsForTs.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/elementLocators/LocatorsForTs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ApprovalPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ApprovalPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/AssertAssertion.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/AssertAssertion.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/AssetPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/AssetPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/BankInfoPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/BankInfoPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/BorrowerDetailsPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/BorrowerDetailsPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/DeclarationPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/DeclarationPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/DemoGraphicInfoPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/DemoGraphicInfoPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/EditOrVerifyInfoPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/EditOrVerifyInfoPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotCom.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotCom.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComAboutUSPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComAboutUSPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComBuyingHomePage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComBuyingHomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComHomeLoansPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComHomeLoansPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComInsurance.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComInsurance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComMortageRatesPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComMortageRatesPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComShortApp.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComShortApp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComeMortgageCalculatorPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComeMortgageCalculatorPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComeRefiPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/GrDotComeRefiPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/HomePage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/HomePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/IncomePage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/IncomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PageObjectBase.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PageObjectBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PricingForOne.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PricingForOne.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PricingPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PricingPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PropertyInfoPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PropertyInfoPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PropertyVerifyPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PropertyVerifyPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ResidenceInfoPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ResidenceInfoPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/SsnAndCreditPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/SsnAndCreditPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/StepOnePage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/StepOnePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ThankYouPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ThankYouPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ToDoListPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ToDoListPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/TransferSafeDocUploadPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/TransferSafeDocUploadPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/SmokeTestGrDotCom.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/SmokeTestGrDotCom.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/SmokeTestOap.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/SmokeTestOap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/TestBorrowerComesWithPricing.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/TestBorrowerComesWithPricing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/TestOapForRefinance.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/TestOapForRefinance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/TestOapForTexas.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/TestOapForTexas.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/TestOapWithCoBorrower.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/TestOapWithCoBorrower.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_testng_testng_spring_4_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_testng_testng_spring_4_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QaAutomationSuite.iml" afterPath="$PROJECT_DIR$/QaAutomationSuite.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utilities/Constant.java" afterPath="$PROJECT_DIR$/src/Utilities/Constant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utilities/TestParameters.java" afterPath="$PROJECT_DIR$/src/Utilities/TestParameters.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/elementLocators/LocatorsForOap.java" afterPath="$PROJECT_DIR$/src/elementLocators/LocatorsForOap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/AssetPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/AssetPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/BankInfoPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/BankInfoPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/BorrowerDetailsPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/BorrowerDetailsPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/DeclarationPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/DeclarationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/DemoGraphicInfoPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/DemoGraphicInfoPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/GrDotCom.java" afterPath="$PROJECT_DIR$/src/pageObjects/GrDotCom.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/HomePage.java" afterPath="$PROJECT_DIR$/src/pageObjects/HomePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/IncomePage.java" afterPath="$PROJECT_DIR$/src/pageObjects/IncomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/PageObjectBase.java" afterPath="$PROJECT_DIR$/src/pageObjects/PageObjectBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/PricingPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/PricingPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/SsnAndCreditPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/SsnAndCreditPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/StepOnePage.java" afterPath="$PROJECT_DIR$/src/pageObjects/StepOnePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/TransferSafeDocUploadPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/TransferSafeDocUploadPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testCases/SmokeTestOap.java" afterPath="$PROJECT_DIR$/src/testCases/SmokeTestOap.java" />
     </list>
     <ignored path="QaAutomation.iws" />
@@ -82,6 +48,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/QaAutomation$SmokeTestOap_testOapBorrowerDoesNotHaveLO.coverage" NAME="SmokeTestOap.testOapBorrowerDoesNotHaveLO Coverage Results" MODIFIED="1457713580531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>testCases.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/QaAutomation$SmokeTestOapTest_testTestOapWithCoBorrower.coverage" NAME="SmokeTestOapTest.testTestOapWithCoBorrower Coverage Results" MODIFIED="1452616115861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>testCases.*</FILTER>
     </SUITE>
@@ -96,11 +65,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pageObjects/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.826215">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StepOnePage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pageObjects/StepOnePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.630137">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,21 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestOapWithCoBorrower.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testCases/TestOapWithCoBorrower.java">
+      <file leaf-file-name="PricingPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pageObjects/PricingPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SsnAndCreditPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/SsnAndCreditPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,69 +101,17 @@
         <entry file="file://$PROJECT_DIR$/src/testCases/SmokeTestOap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="327" column="0" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeclarationPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/DeclarationPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="91" selection-start-line="60" selection-start-column="91" selection-end-line="60" selection-end-column="91" />
+              <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AssetPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/AssetPage.java">
+      <file leaf-file-name="TestParameters.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utilities/TestParameters.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IncomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/IncomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BankInfoPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/BankInfoPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="81" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoGraphicInfoPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/DemoGraphicInfoPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BorrowerDetailsPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/BorrowerDetailsPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
+              <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -226,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pageObjects/abstractClass.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/homePage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/stepOnePage.java" />
         <option value="$PROJECT_DIR$/src/testCases/TestOnlineAppWithCoBorrower.java" />
@@ -248,34 +164,35 @@
         <option value="$PROJECT_DIR$/src/pageObjects/ThankYouPage.java" />
         <option value="$PROJECT_DIR$/src/Utilities/WaitForPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/ToDoListPage.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/GrDotCom.java" />
         <option value="$PROJECT_DIR$/src/PxElementLocator/LocatorsForPx.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/GrDotComShortApp.java" />
         <option value="$PROJECT_DIR$/src/elementLocators/LocatorsForGrDotCom.java" />
         <option value="$PROJECT_DIR$/src/Utilities/ExcelUtils.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/AssetPage.java" />
         <option value="$PROJECT_DIR$/src/elementLocators/LocatorsForTs.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/TransferSafeDocUploadPage.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java" />
-        <option value="$PROJECT_DIR$/src/Utilities/Constant.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java" />
         <option value="$PROJECT_DIR$/src/testCases/TestOapWithCoBorrower.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/AssertAssertion.java" />
         <option value="$PROJECT_DIR$/src/testData/TestParameters.kt" />
         <option value="$PROJECT_DIR$/src/testData/TestData.kt" />
-        <option value="$PROJECT_DIR$/src/Utilities/TestParameters.java" />
-        <option value="$PROJECT_DIR$/src/elementLocators/LocatorsForOap.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/PricingPage.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/StepOnePage.java" />
         <option value="$PROJECT_DIR$/src/testCases/SmokeTestOapTest.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/PageObjectBase.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/BorrowerDetailsPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/DemoGraphicInfoPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/DeclarationPage.java" />
-        <option value="$PROJECT_DIR$/src/testCases/SmokeTestOap.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/SsnAndCreditPage.java" />
+        <option value="$PROJECT_DIR$/src/Utilities/Constant.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/AssetPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/BankInfoPage.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/SsnAndCreditPage.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/BorrowerDetailsPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/IncomePage.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/PricingPage.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/TransferSafeDocUploadPage.java" />
+        <option value="$PROJECT_DIR$/src/elementLocators/LocatorsForOap.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/GrDotCom.java" />
+        <option value="$PROJECT_DIR$/src/Utilities/TestParameters.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/StepOnePage.java" />
+        <option value="$PROJECT_DIR$/src/testCases/SmokeTestOap.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/HomePage.java" />
       </list>
     </option>
@@ -293,8 +210,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -321,8 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,6 +269,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -370,6 +289,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="testCases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QaAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QaAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,6 +344,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -438,7 +373,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeTestOap.testOapWithCoBorrower">
+  <component name="RunManager" selected="JUnit.SmokeTestOap.testRefiLoSelectedForSingleBorrower">
     <configuration default="false" name="SmokeTestOap.TestOapForSingleBorrower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -465,85 +400,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="SmokeTestOapTest.testTestExistingBorrowerLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="QaAutomationSuite" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.SmokeTestOapTest" />
-      <option name="METHOD_NAME" value="testTestExistingBorrowerLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SmokeTestOapTest.testTestOapBorrowerDoesNotHaveLO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="QaAutomationSuite" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.SmokeTestOapTest" />
-      <option name="METHOD_NAME" value="testTestOapBorrowerDoesNotHaveLO" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SmokeTestOapTest.testTestOapWithCoBorrower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="testCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="QaAutomationSuite" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.SmokeTestOapTest" />
-      <option name="METHOD_NAME" value="testTestOapWithCoBorrower" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SmokeTestOap.testOapWithCoBorrower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SmokeTestOap.testDuApprovalForPurchase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="testCases.*" />
@@ -555,7 +412,85 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="testCases" />
       <option name="MAIN_CLASS_NAME" value="testCases.SmokeTestOap" />
-      <option name="METHOD_NAME" value="testOapWithCoBorrower" />
+      <option name="METHOD_NAME" value="testDuApprovalForPurchase" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SmokeTestOap.testMcFunctionsInTransfersafe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="QaAutomationSuite" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.SmokeTestOap" />
+      <option name="METHOD_NAME" value="testMcFunctionsInTransfersafe" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SmokeTestOap.testOapStartFromVPPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="QaAutomationSuite" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.SmokeTestOap" />
+      <option name="METHOD_NAME" value="testOapStartFromVPPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SmokeTestOap.testRefiLoSelectedForSingleBorrower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="QaAutomationSuite" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.SmokeTestOap" />
+      <option name="METHOD_NAME" value="testRefiLoSelectedForSingleBorrower" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" value="" />
@@ -900,18 +835,18 @@
       <item index="1" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testExistingBorrowerLogin" />
       <item index="2" class="java.lang.String" itemvalue="TestNG." />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.TestOapForSingleBorrower" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SmokeTestOapTest.testTestExistingBorrowerLogin" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.SmokeTestOapTest.testTestOapBorrowerDoesNotHaveLO" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.SmokeTestOapTest.testTestOapWithCoBorrower" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testOapWithCoBorrower" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testDuApprovalForPurchase" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testMcFunctionsInTransfersafe" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testOapStartFromVPPage" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testRefiLoSelectedForSingleBorrower" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testOapWithCoBorrower" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.TestOapForSingleBorrower" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SmokeTestOapTest.testTestOapWithCoBorrower" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SmokeTestOapTest.testTestOapBorrowerDoesNotHaveLO" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SmokeTestOapTest.testTestExistingBorrowerLogin" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testRefiLoSelectedForSingleBorrower" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testDuApprovalForPurchase" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testOapStartFromVPPage" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.testMcFunctionsInTransfersafe" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SmokeTestOap.TestOapForSingleBorrower" />
       </list>
     </recent_temporary>
   </component>
@@ -926,90 +861,106 @@
       <option name="number" value="Default" />
       <updated>1434610415351</updated>
     </task>
+    <task id="LOCAL-00001" summary="co-borrower test added">
+      <created>1453219929853</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1453219929853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.15 at 13h 09m 54s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap - 2016.03.15 at 15h 39m 41s.xml">
+      <configuration name="SmokeTestOap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.15 at 13h 19m 09s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap - 2016.03.15 at 16h 20m 41s.xml">
+      <configuration name="SmokeTestOap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.15 at 14h 38m 30s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap - 2016.03.15 at 17h 25m 16s.xml">
+      <configuration name="SmokeTestOap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.15 at 15h 32m 14s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap - 2016.03.15 at 17h 35m 48s.xml">
+      <configuration name="SmokeTestOap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.15 at 15h 45m 17s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap - 2016.03.15 at 17h 49m 27s.xml">
+      <configuration name="SmokeTestOap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.15 at 15h 55m 09s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap - 2016.03.15 at 18h 15m 29s.xml">
+      <configuration name="SmokeTestOap" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.15 at 16h 26m 42s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap_testDuApprovalForPurchase - 2016.03.15 at 17h 29m 09s.xml">
+      <configuration name="SmokeTestOap.testDuApprovalForPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.19 at 09h 27m 49s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap_testDuApprovalForPurchase - 2016.03.15 at 17h 31m 32s.xml">
+      <configuration name="SmokeTestOap.testDuApprovalForPurchase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.19 at 09h 59m 03s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap_testOapStartFromVPPage - 2016.03.15 at 15h 21m 07s.xml">
+      <configuration name="SmokeTestOap.testOapStartFromVPPage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SmokeTestOap_testOapWithCoBorrower - 2016.01.19 at 10h 10m 54s.xml">
-      <configuration name="SmokeTestOap.testOapWithCoBorrower" configurationId="JUnit" />
+    <history-entry file="SmokeTestOap_testRefiLoSelectedForSingleBorrower - 2016.03.15 at 18h 30m 12s.xml">
+      <configuration name="SmokeTestOap.testRefiLoSelectedForSingleBorrower" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1791531" sideWeight="0.4969743" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.318569" sideWeight="0.5060514" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.034795765" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21181718" sideWeight="0.49394855" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740214" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06076759" sideWeight="0.48218527" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32593855" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16311301" sideWeight="0.46630728" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24840085" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08472012" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21709532" sideWeight="0.46630728" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13691376" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08472012" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2151608" sideWeight="0.5336927" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37258348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17725752" sideWeight="0.4969743" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299923" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41538462" sideWeight="0.49394855" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08547655" sideWeight="0.51781476" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37258348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1791531" sideWeight="0.4969743" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17725752" sideWeight="0.4969743" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.318569" sideWeight="0.5060514" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.034795765" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06076759" sideWeight="0.48218527" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5448155" sideWeight="0.49394855" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299923" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27090302" sideWeight="0.49394855" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08547655" sideWeight="0.51781476" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740214" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26522744" sideWeight="0.46630728" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15298508" sideWeight="0.46630728" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270869" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24840085" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13691376" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08472012" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2151608" sideWeight="0.5336927" order="1" side_tool="true" content_ui="tabs" />
@@ -1027,9 +978,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="co-borrower test added" />
+    <option name="LAST_COMMIT_MESSAGE" value="co-borrower test added" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1042,9 +997,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1059,14 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1109,13 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/PricingForOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6967213">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1196,45 +1134,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/TransferSafeDocUploadPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/GrDotCom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QaAutomationSuite.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7408257">
           <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilities/ExcelUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9031339">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilities/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1266,42 +1169,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029010238">
-          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilities/TestParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/PricingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20425531">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/StepOnePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pageObjects/PageObjectBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="false" />
+            <element signature="e#254#255#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1310,17 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elementLocators/LocatorsForGrDotCom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,15 +1191,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/elementLocators/LocatorsForOap.java">
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/DemoGraphicInfoPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="149" column="4" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
-          <folding />
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/DeclarationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037037037">
+          <caret line="60" column="91" selection-start-line="60" selection-start-column="91" selection-end-line="60" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -1348,34 +1216,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/BorrowerDetailsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/Utilities/Constant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/DemoGraphicInfoPage.java">
+    <entry file="file://$PROJECT_DIR$/src/Utilities/ExcelUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.56852794">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/DeclarationPage.java">
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="91" selection-start-line="60" selection-start-column="91" selection-end-line="60" selection-end-column="91" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/SsnAndCreditPage.java">
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="77" selection-start-line="45" selection-start-column="77" selection-end-line="45" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -1383,15 +1261,7 @@
     <entry file="file://$PROJECT_DIR$/src/pageObjects/AssetPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/BankInfoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="81" selection-start-line="42" selection-start-column="81" selection-end-line="42" selection-end-column="81" />
+          <caret line="22" column="112" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
           <folding />
         </state>
       </provider>
@@ -1399,7 +1269,95 @@
     <entry file="file://$PROJECT_DIR$/src/pageObjects/IncomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <caret line="51" column="91" selection-start-line="51" selection-start-column="91" selection-end-line="51" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/PricingForOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33740458">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/SsnAndCreditPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/BankInfoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="74" selection-start-line="46" selection-start-column="74" selection-end-line="46" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/GrDotCom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5974441">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/TransferSafeDocUploadPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8146965">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/BorrowerDetailsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0591054">
+          <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elementLocators/LocatorsForOap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17028381">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elementLocators/LocatorsForGrDotCom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24440895">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/PricingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utilities/TestParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1407,17 +1365,15 @@
     <entry file="file://$PROJECT_DIR$/src/testCases/SmokeTestOap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="327" column="0" selection-start-line="327" selection-start-column="0" selection-end-line="327" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/StepOnePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.826215">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.630137">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

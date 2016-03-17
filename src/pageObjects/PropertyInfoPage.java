@@ -1,11 +1,13 @@
 package pageObjects;
 
+import Utilities.TestParameters;
+import elementLocators.LocatorsForOap;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import org.openqa.selenium.support.ui.Select;
 /**
  * Created by rsangroula on 6/18/2015.
  */
@@ -45,4 +47,36 @@ public class PropertyInfoPage extends PageObjectBase {
         return new PropertyInfoPage(driver);
 
     }
+
+    public PropertyInfoPage refiPropertyDetails() throws InterruptedException{
+        driver.findElement(LocatorsForOap.propertyInfoRefiOption).click();
+        driver.findElement(LocatorsForOap.propertInfoStreetAddress).sendKeys(TestParameters.BorrowerAddress);
+        driver.findElement(LocatorsForOap.propertyInfoCityBox).sendKeys(TestParameters.PropertyCity);
+        driver.findElement(LocatorsForOap.propertyInfoStateId).click();
+        driver.findElement(LocatorsForOap.propertyInfoSelectIL).click();
+        driver.findElement(LocatorsForOap.propertyInfoZipCode).sendKeys(TestParameters.PropertyZip);
+        driver.findElement(LocatorsForOap.propertyInfoSelectPropertyType).click();
+        driver.findElement(LocatorsForOap.propertyInfoSelectSingleFamily).click();
+        driver.findElement(LocatorsForOap.propertyInfoSelectPurpose).click();
+        driver.findElement(LocatorsForOap.propertyInfoSelectPrimaryResidence).click();
+        driver.findElement(LocatorsForOap.refiPropertyOriginalCost).clear();
+        driver.findElement(LocatorsForOap.refiPropertyOriginalCost).sendKeys(TestParameters.OriginalCost);
+        new Select(driver.findElement(LocatorsForOap.propertyInfoStateId)).selectByVisibleText(TestParameters.PropertyState);
+
+
+        new Select(driver.findElement(LocatorsForOap.refiProperyAcquiredYear)).selectByVisibleText(TestParameters.PropertyBoughtYear);
+        new Select(driver.findElement(LocatorsForOap.refiLoanAgainstProperty)).selectByVisibleText(TestParameters.None);
+
+        driver.findElement(LocatorsForOap.propertyEscrowType).click();
+        driver.findElement(LocatorsForOap.propertyIncludeTaxInsurance).click();
+
+        driver.findElement(LocatorsForOap.borrowerPageSubmitBtn).click();
+
+
+
+
+        return new PropertyInfoPage(driver);
+    }
+
+
 }

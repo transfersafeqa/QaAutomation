@@ -39,11 +39,11 @@ public class ResidenceInfoPage extends PageObjectBase {
     }
 
     public ResidenceInfoPage jointResidence() throws InterruptedException {
-        driver.findElement(By.xpath("//input[@id='Address1']")).sendKeys("830 N. Paulina Ave");
-        driver.findElement(By.xpath("//input[@id='City']")).sendKeys("Chicago");
-        driver.findElement(By.xpath("//select[@id='StateId']")).sendKeys("IL");
+        driver.findElement(By.xpath("//input[@id='Address1']")).sendKeys("4321 Cul de Sac Street");
+        driver.findElement(By.xpath("//input[@id='City']")).sendKeys("Someplace");
+        driver.findElement(By.xpath("//select[@id='StateId']")).sendKeys("MA");
         driver.findElement(By.xpath("//input[@id='Zip']")).clear();
-        driver.findElement(By.xpath("//input[@id='Zip']")).sendKeys("60622");
+        driver.findElement(By.xpath("//input[@id='Zip']")).sendKeys("02723");
         driver.findElement(By.xpath("//label[contains(.,'Both')]")).click();
         driver.findElement(By.xpath("//label[contains(@for,'rent')]")).click();
         driver.findElement(By.xpath("//select[@id='YearsAtResidence']")).sendKeys("9 years");

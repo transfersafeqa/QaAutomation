@@ -1,5 +1,6 @@
 package pageObjects;
 
+import Utilities.TestParameters;
 import elementLocators.LocatorsForOap;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,14 +24,13 @@ public class SsnAndCreditPage extends PageObjectBase {
 
 
             driver.findElement(LocatorsForOap.enterPrimarySsnBox).clear();
-            //driver.findElement(LocatorsForOap.enterPrimarySsnBox).sendKeys("666006666");
-            driver.findElement(LocatorsForOap.enterPrimarySsnBox).sendKeys("005160001");
+            driver.findElement(LocatorsForOap.enterPrimarySsnBox).sendKeys(TestParameters.KenCustomerSSN);
 
             driver.findElement(LocatorsForOap.reEnterPrimarySsnBox).clear();
-            driver.findElement(LocatorsForOap.reEnterPrimarySsnBox).sendKeys("005160001");
+            driver.findElement(LocatorsForOap.reEnterPrimarySsnBox).sendKeys(TestParameters.KenCustomerSSN);
 
-            driver.findElement(LocatorsForOap.createPassword).sendKeys("password1");
-            driver.findElement(LocatorsForOap.reEnterPassword).sendKeys("password1");
+            driver.findElement(LocatorsForOap.createPassword).sendKeys(TestParameters.PW);
+            driver.findElement(LocatorsForOap.reEnterPassword).sendKeys(TestParameters.PW);
 
             driver.findElement(LocatorsForOap.SsnSubmitButton).click();
 
@@ -42,17 +42,42 @@ public class SsnAndCreditPage extends PageObjectBase {
 
         driver.findElement(LocatorsForOap.enterPrimarySsnBox).clear();
 
-        driver.findElement(LocatorsForOap.enterPrimarySsnBox).sendKeys("005160001");
+        driver.findElement(LocatorsForOap.enterPrimarySsnBox).sendKeys(TestParameters.AndyAmericaSsn);
 
         driver.findElement(LocatorsForOap.reEnterPrimarySsnBox).clear();
-        driver.findElement(LocatorsForOap.reEnterPrimarySsnBox).sendKeys("005160001");
+        driver.findElement(LocatorsForOap.reEnterPrimarySsnBox).sendKeys(TestParameters.AndyAmericaSsn);
+
+        driver.findElement(LocatorsForOap.coBorrowwerSsn).clear();
+        driver.findElement(LocatorsForOap.coBorrowwerSsn).sendKeys(TestParameters.AmyAmericaSsn);
+        Thread.sleep(2000);
+        driver.findElement(LocatorsForOap.reEnterCoBorrowerSsn).sendKeys(TestParameters.AmyAmericaSsn);
+
+        driver.findElement(LocatorsForOap.createPassword).sendKeys(TestParameters.PW);
+        driver.findElement(LocatorsForOap.reEnterPassword).sendKeys(TestParameters.PW);
+
+        driver.findElement(LocatorsForOap.SsnSubmitButton).click();
 
 
-        driver.findElement(By.xpath("//input[@id='CreditInputModel_CoBorrowerSsn']")).sendKeys("005260002");
-        driver.findElement(By.xpath("//input[@id='CreditInputModel_CoBorrowerSsnMatch']")).sendKeys("005260002");
+        return new SsnAndCreditPage(driver);
+    }
 
-        driver.findElement(LocatorsForOap.createPassword).sendKeys("password1");
-        driver.findElement(LocatorsForOap.reEnterPassword).sendKeys("password1");
+    public SsnAndCreditPage SsnForDuApproval() throws InterruptedException{
+
+        WebDriverWait wait = new WebDriverWait(driver, 50);
+
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(LocatorsForOap.enterPrimarySsnBox));
+
+
+
+        driver.findElement(LocatorsForOap.enterPrimarySsnBox).clear();
+
+        driver.findElement(LocatorsForOap.enterPrimarySsnBox).sendKeys(TestParameters.KenCustomerSSN);
+
+        driver.findElement(LocatorsForOap.reEnterPrimarySsnBox).clear();
+        driver.findElement(LocatorsForOap.reEnterPrimarySsnBox).sendKeys(TestParameters.KenCustomerSSN);
+
+        driver.findElement(LocatorsForOap.createPassword).sendKeys(TestParameters.PW);
+        driver.findElement(LocatorsForOap.reEnterPassword).sendKeys(TestParameters.PW);
 
         driver.findElement(LocatorsForOap.SsnSubmitButton).click();
 

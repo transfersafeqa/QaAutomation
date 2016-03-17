@@ -30,23 +30,23 @@ public class HomePage extends PageObjectBase {
 
     public HomePage launch(){
 
-         driver.get(Constant.dev);
-        //driver.get(Constant.Stage);
-       //driver.get(Constant.prod);
+          driver.get(Constant.dev);
+          //driver.get(Constant.Stage);
+        //driver.get(Constant.prod);
 
 
         return new HomePage(driver);
     }
 
-
+//
 
 
 
 
     public HomePage LaunchFromVPpage(){
 
-        //driver.get("https://www.guaranteedrate.com/Joseph_Sullivan");
-        driver.get("https://www.guaranteedrate.com/john_sample");
+
+        driver.get("https://www.guaranteedrate.com/John_Sample");
 
         return new HomePage(driver);
     }

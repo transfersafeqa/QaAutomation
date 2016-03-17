@@ -12,6 +12,16 @@ public class AssetPage extends PageObjectBase {
     }
     public AssetPage assetInfo() {
 
+
+        driver.findElement(By.xpath("//label[@for='BorrowerTypeId_both']"));
+        driver.findElement(By.xpath("//label[contains(.,'Joint Account')]"));
+        driver.findElement(By.xpath("//label[@for='BorrowerTypeId_borr']"));
+
+
+        driver.findElement(By.id("BorrowerTypeId_both")).click();
+        driver.findElement(By.id("DepositAccountTypeId")).click();
+        //new Select(driver.findElement(By.id("DepositAccountTypeId"))).selectByVisibleText("Checking Account");
+
         return new AssetPage(driver);
     }
 
