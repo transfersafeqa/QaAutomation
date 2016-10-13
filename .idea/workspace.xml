@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ae29c4-3c04-4e12-803b-a3d3ab6587ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pageObjects/NewPricingPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/Utilities/Constant.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/Utilities/Constant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/elementLocators/LocatorsForOap.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/elementLocators/LocatorsForOap.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/AssertAssertion.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/AssertAssertion.class" />
@@ -18,22 +17,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/StepOnePage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/StepOnePage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/SmokeTestOap.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/SmokeTestOap.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QaAutomationSuite.iml" afterPath="$PROJECT_DIR$/QaAutomationSuite.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utilities/Constant.java" afterPath="$PROJECT_DIR$/src/Utilities/Constant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utilities/TestParameters.java" afterPath="$PROJECT_DIR$/src/Utilities/TestParameters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/elementLocators/LocatorsForOap.java" afterPath="$PROJECT_DIR$/src/elementLocators/LocatorsForOap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/AssertAssertion.java" afterPath="$PROJECT_DIR$/src/pageObjects/AssertAssertion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/BankInfoPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/BankInfoPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/BorrowerDetailsPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/BorrowerDetailsPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/HomePage.java" afterPath="$PROJECT_DIR$/src/pageObjects/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/IncomePage.java" afterPath="$PROJECT_DIR$/src/pageObjects/IncomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/PricingPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/PricingPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/SsnAndCreditPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/SsnAndCreditPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/StepOnePage.java" afterPath="$PROJECT_DIR$/src/pageObjects/StepOnePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testCases/SmokeTestOap.java" afterPath="$PROJECT_DIR$/src/testCases/SmokeTestOap.java" />
     </list>
     <ignored path="QaAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -941,7 +924,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458225459623</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="co-borrower test added">
+      <created>1476380014273</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1476380014273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
