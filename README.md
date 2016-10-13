@@ -1,7 +1,7 @@
 # QaAutomation
 
 This is a regression test suite for functional testing.
-It contacins end to end testing scnearios for ILF, OAP, and TS.
+It contains end to end testing scnearios for ILF, OAP, and TS.
 Framework is composed of follwong: Selenium Java, Junit, Java JDK. Requires Selenium Grid implementation to run test in 
 other machines or in Sauce lab. Grid defines hub and node for the test and test runs on nodes. 
 Test model is page Object Model, each page is a class, each functionality or use case in a given page is a method.
