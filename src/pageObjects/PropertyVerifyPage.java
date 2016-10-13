@@ -13,9 +13,9 @@ public class PropertyVerifyPage extends PageObjectBase {
     }
     public PropertyVerifyPage verifyPropertyAddress() {
 
-        //driver.findElement(LocatorsForOap.submitButton).click();
+        driver.findElement(LocatorsForOap.submitButton).click();
 
-        driver.findElement(By.xpath("//form[@id='formVerifyAddress']/button")).click();
+       // driver.findElement(By.xpath("//form[@id='formVerifyAddress']/button")).click();
 
         return new PropertyVerifyPage(driver);
     }

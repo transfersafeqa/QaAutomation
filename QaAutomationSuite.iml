@@ -75,5 +75,14 @@
     <orderEntry type="library" exported="" name="apache-mime4j-0.6" level="project" />
     <orderEntry type="library" exported="" name="junit-4.12" level="project" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Microsoft JDBC Driver 4.2 for SQL Server/sqljdbc_4.2/enu/sqljdbc4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

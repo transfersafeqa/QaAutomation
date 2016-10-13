@@ -23,6 +23,7 @@ public class LocatorsForOap {
        public static By selectLOButton = By.xpath("//a[contains(.,'John Sample')]");
        public static By selfSelectedCreditScore = By.xpath("//select[@id='SelfSelectedCreditScore']");
        public static By excellentCreditScore = By.xpath("//option[@value='ExcellentV2']");
+       public static By averageCreditScore = By.xpath("//option[@value='FairV2']");
        public static By existingUserEmailBox = By.id("email-address");
        public static By existingUserPasswordBox = By.xpath("//input[@type='password']");
        public static By submitButton = By.xpath("//button[@type='submit']");
@@ -49,6 +50,7 @@ public class LocatorsForOap {
        public static By pricingPageSkipButton = By.xpath("//button[contains(.,'Skip this step for now')]");
 
        public static By pricingPageSelectButton = By.cssSelector("td.col-select-button > button.button-primary");
+
 
 
 
@@ -100,6 +102,8 @@ public class LocatorsForOap {
        public static By propertInfoStreetAddress = By.id("Property_Address1");
        public static By propertyInfoCityBox = By.id("Property_City");
        public static By propertyInfoStateId = By.id("Property_StateId");
+       public static By propertyInfoSelectKY = By.xpath("//option[@value='KY']");
+       public static By propertyInfoSelectIA = By.xpath("//option[@value='IA']");
        public static By propertyInfoSelectIL = By.xpath("//option[@value='IL']");
        public static By propertyInfoZipCode = By.id("Property_Zip");
        public static By propertyInfoSelectPropertyType = By.id("Property_PropertyTypeId");
@@ -133,7 +137,7 @@ public class LocatorsForOap {
        public static By incomePageSubmitButton = By.xpath("//button[@type='submit']");
 
        //Bank Info page
-
+       public static By depositAccountType = By.xpath("//select[@id='DepositAccountTypeId']");
        public static By bankAccountTypes = By.id("DepositAccountTypeId");
        public static By selectCheckingAccount = By.xpath("//option[contains(.,'Checking Account')]");
        public static By bankNameBox = By.id("Instutution");

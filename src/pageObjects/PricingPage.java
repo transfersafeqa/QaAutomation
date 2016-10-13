@@ -18,9 +18,10 @@ public class PricingPage extends PageObjectBase {
     public PricingPage selectLoan() throws InterruptedException{
         WebDriverWait wait = new WebDriverWait(driver, 30);
 
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(LocatorsForOap.pricingPageSelectButton));
+       // WebElement element = wait.until(ExpectedConditions.elementToBeClickable(LocatorsForOap.pricingPageSelectButton));
+        driver.findElement(By.xpath("//button[@data-value='0']")).click();
 
-        driver.findElement(LocatorsForOap.pricingPageSelectButton).click();
+        //driver.findElement(LocatorsForOap.pricingPageSelectButton).click();
 
 
         return new PricingPage(driver);
