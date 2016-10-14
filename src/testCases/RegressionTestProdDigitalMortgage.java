@@ -74,7 +74,7 @@ public class RegressionTestProdDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
        // AssertAssertion assertAssertion = new AssertAssertion(driver);
        // assertAssertion = assertAssertion.assertHomepage();
@@ -135,7 +135,7 @@ public class RegressionTestProdDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
         AssertAssertion assertAssertion = new AssertAssertion(driver);
         assertAssertion = assertAssertion.assertHomepage();
@@ -194,7 +194,7 @@ public class RegressionTestProdDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
         AssertAssertion assertAssertion = new AssertAssertion(driver);
         assertAssertion = assertAssertion.assertHomepage();
@@ -300,7 +300,7 @@ public class RegressionTestProdDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
         AssertAssertion assertAssertion = new AssertAssertion(driver);
         assertAssertion = assertAssertion.assertHomepage();
@@ -357,7 +357,7 @@ public class RegressionTestProdDigitalMortgage {
     @Test
     public void testDuApprovalForPurchase() throws Exception{
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
         AssertAssertion assertAssertion = new AssertAssertion(driver);
         assertAssertion = assertAssertion.assertHomepage();
@@ -415,7 +415,7 @@ public class RegressionTestProdDigitalMortgage {
     public void testDuApprovalForRefi() throws Exception{
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
         AssertAssertion assertAssertion = new AssertAssertion(driver);
         assertAssertion = assertAssertion.assertHomepage();
@@ -477,7 +477,7 @@ public class RegressionTestProdDigitalMortgage {
     public void testExistingBorrowerLogin() throws Exception{
 
         HomePage onHomePage = new HomePage(driver);
-        onHomePage =  onHomePage.launch();
+        onHomePage =  onHomePage.launchInProd();
         onHomePage = onHomePage.clickOnLoginLink();
 
         StepOnePage loginWithEmail = new StepOnePage(driver);
@@ -497,7 +497,7 @@ public class RegressionTestProdDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
         AssertAssertion assertAssertion = new AssertAssertion(driver);
         assertAssertion = assertAssertion.assertHomepage();
@@ -629,7 +629,7 @@ public class RegressionTestProdDigitalMortgage {
     public void testOapWithCoBorrower() throws Exception {
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
         AssertAssertion assertAssertion = new AssertAssertion(driver);
         assertAssertion = assertAssertion.assertHomepage();
@@ -691,7 +691,7 @@ public class RegressionTestProdDigitalMortgage {
     public void testRefiLoSelectedForSingleBorrower() throws Exception {
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
         AssertAssertion assertAssertion = new AssertAssertion(driver);
         assertAssertion = assertAssertion.assertHomepage();
@@ -749,7 +749,7 @@ public class RegressionTestProdDigitalMortgage {
         public void testRefiOapWithCoBorrower() throws Exception {
 
             HomePage onhomePage = new HomePage(driver);
-            onhomePage = onhomePage.launch();
+            onhomePage = onhomePage.launchInProd();
 
             AssertAssertion assertAssertion = new AssertAssertion(driver);
             assertAssertion = assertAssertion.assertHomepage();
@@ -807,7 +807,7 @@ public class RegressionTestProdDigitalMortgage {
             public void testDuOapPurchaseWithCoBorrower() throws Exception {
 
                 HomePage onhomePage = new HomePage(driver);
-                onhomePage = onhomePage.launch();
+                onhomePage = onhomePage.launchInProd();
 
                 AssertAssertion assertAssertion = new AssertAssertion(driver);
                 assertAssertion = assertAssertion.assertHomepage();
@@ -869,7 +869,7 @@ public class RegressionTestProdDigitalMortgage {
     public void testDuRefiOapWithCoBorrower() throws Exception {
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInProd();
 
         AssertAssertion assertAssertion = new AssertAssertion(driver);
         assertAssertion = assertAssertion.assertHomepage();

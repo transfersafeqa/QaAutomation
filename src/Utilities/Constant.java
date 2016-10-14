@@ -13,9 +13,9 @@ public class Constant {
 
     public static final String prod = "https://www.guaranteedrate.com";
 
-    public static final String Stage = "https://www.gr-stage.com/";
+    public static final String Stage = "https://app.gr-stage.com/";
 
-    public static final String dev = "https://www.gr-dev.com";
+    public static final String dev = "http://grr-app.gr-dev.com/";
 
     public static final String Path_TestData = "src\\testData\\";
 

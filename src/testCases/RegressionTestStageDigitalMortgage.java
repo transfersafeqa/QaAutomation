@@ -77,11 +77,9 @@ public class RegressionTestStageDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        // AssertAssertion assertAssertion = new AssertAssertion(driver);
-        // assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
+
 
         //AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         //assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -138,11 +136,9 @@ public class RegressionTestStageDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
+
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -197,11 +193,9 @@ public class RegressionTestStageDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
+
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -303,11 +297,8 @@ public class RegressionTestStageDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -360,11 +351,7 @@ public class RegressionTestStageDigitalMortgage {
     @Test
     public void testDuApprovalForPurchase() throws Exception{
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
-
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
+        onhomePage = onhomePage.launchInStage();
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -418,11 +405,8 @@ public class RegressionTestStageDigitalMortgage {
     public void testDuApprovalForRefi() throws Exception{
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -480,7 +464,7 @@ public class RegressionTestStageDigitalMortgage {
     public void testExistingBorrowerLogin() throws Exception{
 
         HomePage onHomePage = new HomePage(driver);
-        onHomePage =  onHomePage.launch();
+        onHomePage =  onHomePage.launchInStage();
         onHomePage = onHomePage.clickOnLoginLink();
 
         StepOnePage loginWithEmail = new StepOnePage(driver);
@@ -500,11 +484,8 @@ public class RegressionTestStageDigitalMortgage {
 
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -632,11 +613,9 @@ public class RegressionTestStageDigitalMortgage {
     public void testOapWithCoBorrower() throws Exception {
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
+
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -694,11 +673,8 @@ public class RegressionTestStageDigitalMortgage {
     public void testRefiLoSelectedForSingleBorrower() throws Exception {
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -752,11 +728,8 @@ public class RegressionTestStageDigitalMortgage {
     public void testRefiOapWithCoBorrower() throws Exception {
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -810,11 +783,8 @@ public class RegressionTestStageDigitalMortgage {
     public void testDuOapPurchaseWithCoBorrower() throws Exception {
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
@@ -872,11 +842,8 @@ public class RegressionTestStageDigitalMortgage {
     public void testDuRefiOapWithCoBorrower() throws Exception {
 
         HomePage onhomePage = new HomePage(driver);
-        onhomePage = onhomePage.launch();
+        onhomePage = onhomePage.launchInStage();
 
-        AssertAssertion assertAssertion = new AssertAssertion(driver);
-        assertAssertion = assertAssertion.assertHomepage();
-        onhomePage = onhomePage.clickOnApply();
 
         AssertAssertion assertStepOneElements = new AssertAssertion(driver);
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
