@@ -141,14 +141,19 @@ public class PropertyInfoPage extends PageObjectBase {
     }
 
     public PropertyInfoPage duRefiPropertyDetails() throws InterruptedException {
-        driver.findElement(LocatorsForOap.propertyInfoRefiOption).click();
+       // driver.findElement(LocatorsForOap.propertyInfoRefiOption).click();
         driver.findElement(LocatorsForOap.propertInfoStreetAddress).sendKeys(TestParameters.DuRefiBorrowerAddress);
         driver.findElement(LocatorsForOap.propertyInfoCityBox).sendKeys(TestParameters.DuRefiPropertyCity);
         driver.findElement(LocatorsForOap.propertyInfoStateId).click();
-        driver.findElement(LocatorsForOap.propertyInfoSelectKY).click();
-        driver.findElement(LocatorsForOap.propertyInfoZipCode).sendKeys(TestParameters.DuRefiPropertyZip);
+        new Select(driver.findElement(LocatorsForOap.propertyInfoStateId)).selectByVisibleText(TestParameters.DuPropertyState);
+        //driver.findElement(LocatorsForOap.propertyInfoSelectKY).click();
+
+        Thread.sleep(6000);
+       driver.findElement(LocatorsForOap.propertyInfoZipCode).sendKeys(TestParameters.DuRefiPropertyZip);
         driver.findElement(LocatorsForOap.propertyInfoSelectPropertyType).click();
         driver.findElement(LocatorsForOap.propertyInfoSelectSingleFamily).click();
+       // driver.findElement(LocatorsForOap.propertyInfoStateId).click();
+       // new Select(driver.findElement(By.id("StateId"))).selectByVisibleText("Kentucky");
         driver.findElement(By.xpath("//select[@id='Property_ProgressiveEngagementDurationValue']")).click();
 
         driver.findElement(By.xpath("//option[@value='TwentyPlus']")).click();
@@ -157,8 +162,8 @@ public class PropertyInfoPage extends PageObjectBase {
         driver.findElement(LocatorsForOap.refiPropertyOriginalCost).clear();
         driver.findElement(LocatorsForOap.refiPropertyOriginalCost).sendKeys(TestParameters.OriginalCost);
         driver.findElement(By.id("Property_RefinanceCashOutAmount")).clear();
-        driver.findElement(By.id("Property_RefinanceCashOutAmount")).sendKeys("150000");
-        new Select(driver.findElement(LocatorsForOap.propertyInfoStateId)).selectByVisibleText(TestParameters.PropertyState);
+        driver.findElement(By.id("Property_RefinanceCashOutAmount")).sendKeys("104000");
+
 
 
         new Select(driver.findElement(LocatorsForOap.refiProperyAcquiredYear)).selectByVisibleText(TestParameters.PropertyBoughtYear);

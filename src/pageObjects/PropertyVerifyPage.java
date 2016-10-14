@@ -13,10 +13,18 @@ public class PropertyVerifyPage extends PageObjectBase {
     }
     public PropertyVerifyPage verifyPropertyAddress() {
 
-        driver.findElement(LocatorsForOap.submitButton).click();
+       // driver.findElement(LocatorsForOap.submitButton).click();
 
-       // driver.findElement(By.xpath("//form[@id='formVerifyAddress']/button")).click();
+        driver.findElement(By.xpath("//button[contains(@type,'submit')]")).click();
+        //driver.findElement(By.xpath("//form[@id='formVerifyAddress']/button")).click();
 
         return new PropertyVerifyPage(driver);
     }
-}
+    public PropertyVerifyPage DuRefiverifyPropertyAddress() {
+
+        driver.findElement(By.xpath("(//button[@type='submit'])[2]")).click();
+        return new PropertyVerifyPage(driver);
+
+    }
+
+    }

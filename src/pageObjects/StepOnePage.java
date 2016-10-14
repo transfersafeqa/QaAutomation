@@ -361,7 +361,7 @@ public class StepOnePage extends PageObjectBase {
         driver.findElement(LocatorsForOap.refiPropertyValue).clear();
         driver.findElement(LocatorsForOap.refiPropertyValue).sendKeys(TestParameters.RefiCurrentPropertyValue);
 
-        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText(TestParameters.PropertyState);
+        new Select(driver.findElement(LocatorsForOap.propertyState)).selectByVisibleText(TestParameters.DuPropertyState);
 
         driver.findElement(LocatorsForOap.selfSelectedCreditScore).click();
         driver.findElement(LocatorsForOap.excellentCreditScore).click();
@@ -380,7 +380,6 @@ public class StepOnePage extends PageObjectBase {
 
         driver.findElement(LocatorsForOap.emailBox).sendKeys(("v3test-du-") + (UUID.randomUUID().toString().replace("-", "").substring(0, 3) + "@yopmail.com"));
 
-        // driver.findElement(LocatorsForOap.emailBox).sendKeys((UUID.randomUUID().toString().replace("-", "").substring(0, 4)) + "testfolder@yopmail.com");
 
 
         String  testEmail = driver.findElement(LocatorsForOap.emailBox).getAttribute("value");
@@ -389,9 +388,9 @@ public class StepOnePage extends PageObjectBase {
         driver.findElement(LocatorsForOap.loanOfficerYesButton).click();
         driver.findElement(LocatorsForOap.loanOfficerNameBox).clear();
         driver.findElement(LocatorsForOap.loanOfficerNameBox).sendKeys(TestParameters.TestLoanOfficer);
-        driver.findElement(By.xpath("//a[contains(.,'Michelle Bobart')]")).click();
+        driver.findElement(By.xpath("//a[contains(.,'Alan Ouye')]")).click();
 
-        driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
+       driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
 
         return new StepOnePage(driver);
 

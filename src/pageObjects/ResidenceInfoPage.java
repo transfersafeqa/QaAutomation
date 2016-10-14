@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import elementLocators.LocatorsForOap;
 
 
 /**
@@ -49,7 +50,9 @@ public class ResidenceInfoPage extends PageObjectBase {
         //driver.findElement(By.id("City")).clear();
         driver.findElement(By.id("City")).sendKeys(TestParameters.DuRefiPropertyCity);
         //Thread.sleep(5000);
-        driver.findElement(By.xpath("//select[@id='StateId']")).sendKeys("KY");
+        //driver.findElement(LocatorsForOap.propertyInfoStateId).click();
+         new Select(driver.findElement(By.id("StateId"))).selectByVisibleText("Kentucky");
+
         driver.findElement(By.id("Zip")).clear();
         driver.findElement(By.id("Zip")).sendKeys(TestParameters.DuRefiPropertyZip);
         driver.findElement(By.xpath("//label[contains(@for,'rent')]")).click();

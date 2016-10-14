@@ -57,9 +57,9 @@ public class TestParameters {
     public static final String Yopmail = "testoap@yopmail";
     public static final String ExistingUserPassword = "password1";
     public static final String PropertyState = "Pennsylvania";
-
+    public static final String DuPropertyState = "Kentucky";
     public static final String RefiPropertyState = "Iowa";
-    public static final String TestLoanOfficer = "John Sample";
+    public static final String TestLoanOfficer = "Alan Ouye";
     public static final String TestEmail = "test@example.com";
 
 

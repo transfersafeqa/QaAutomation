@@ -20,9 +20,13 @@ import org.openqa.selenium.support.ui.Select;
 import pageObjects.*;
 //@RunWith(Parameterized.class)
 
-public class SmokeTestOap {
 
-   WebDriver driver;
+/**
+ * Created by rsangroula on 10/14/2016.
+ */
+public class RegressionTestStageDigitalMortgage {
+
+    WebDriver driver;
     String nodeURL;
 
     private boolean acceptNextAlert = true;
@@ -36,20 +40,20 @@ public class SmokeTestOap {
     public void testSetUP() throws MalformedURLException {
 
 
-      // System.setProperty("webdriver.ie.driver", "C://users/rsangroula/IEDriverServer.exe");
-         System.setProperty("webdriver.chrome.driver", "C://chromedriver/chromedriver.exe");
-       // System.setProperty("phantomjs.binary.path", "capability/system property/bin/phantomjs.exe");
+        // System.setProperty("webdriver.ie.driver", "C://users/rsangroula/IEDriverServer.exe");
+        System.setProperty("webdriver.chrome.driver", "C://chromedriver/chromedriver.exe");
+        // System.setProperty("phantomjs.binary.path", "capability/system property/bin/phantomjs.exe");
         //File pathToBinary = new File("C://Program Files//Firefox.exe");
-       // FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
-       // FirefoxProfile firefoxProfile = new FirefoxProfile();
+        // FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
+        // FirefoxProfile firefoxProfile = new FirefoxProfile();
         //driver = new FirefoxDriver(ffBinary,firefoxProfile);
-       // nodeURL = "http://" + "rsangroula1" + ":" + "c654463e-db97-494c-ae82-4c037f087d1f" + "@ondemand.saucelabs.com:80/wd/hub";
-       // nodeURL = "http://10.2.49.19:5566/wd/hub";
+        // nodeURL = "http://" + "rsangroula1" + ":" + "c654463e-db97-494c-ae82-4c037f087d1f" + "@ondemand.saucelabs.com:80/wd/hub";
+        // nodeURL = "http://10.2.49.19:5566/wd/hub";
         DesiredCapabilities capability = DesiredCapabilities.chrome();
         capability.setBrowserName("chrome");
         capability.setPlatform(Platform.ANY);
-         // driver = new RemoteWebDriver(new URL(nodeURL), capability);
-         driver = new ChromeDriver();
+        // driver = new RemoteWebDriver(new URL(nodeURL), capability);
+        driver = new ChromeDriver();
         //driver = new FirefoxDriver();
         //driver = new PhantomJSDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -60,14 +64,13 @@ public class SmokeTestOap {
 
     @After
 
-   public void testShutDown() {
+    public void testShutDown() {
 
-      // driver.quit();
+        // driver.quit();
+
+
 
     }
-
-
-
 
     @ Test
     public void TestOapForSingleBorrower() throws Exception {
@@ -76,8 +79,8 @@ public class SmokeTestOap {
         HomePage onhomePage = new HomePage(driver);
         onhomePage = onhomePage.launch();
 
-       // AssertAssertion assertAssertion = new AssertAssertion(driver);
-       // assertAssertion = assertAssertion.assertHomepage();
+        // AssertAssertion assertAssertion = new AssertAssertion(driver);
+        // assertAssertion = assertAssertion.assertHomepage();
         onhomePage = onhomePage.clickOnApply();
 
         //AssertAssertion assertStepOneElements = new AssertAssertion(driver);
@@ -86,7 +89,7 @@ public class SmokeTestOap {
         OapStepOne = OapStepOne.selectLOAndSubmit();
 
 
-       // AssertAssertion assertBorrowerInfoElements = new AssertAssertion(driver);
+        // AssertAssertion assertBorrowerInfoElements = new AssertAssertion(driver);
         // assertBorrowerInfoElements = assertStepOneElements.borrowerInfoPage();
         BorrowerDetailsPage borrowerDetails = new BorrowerDetailsPage(driver);
         borrowerDetails = borrowerDetails.singleBorrower();
@@ -120,8 +123,8 @@ public class SmokeTestOap {
         SsnAndCreditPage apply = new SsnAndCreditPage(driver);
         apply = apply.applyDigitalMortgage();
 
-       // AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
-       // assertPricingPageElements = assertPricingPageElements.assertPricingPage();
+        // AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
+        // assertPricingPageElements = assertPricingPageElements.assertPricingPage();
 
         PricingPage selectPricing = new PricingPage(driver);
         //selectPricing = selectPricing.selectLoan();
@@ -249,11 +252,11 @@ public class SmokeTestOap {
     }
 
 
-        @ Test
+    @ Test
     public void TestOapForSingleBorrowerFromPe() throws Exception {
 
 
-       NewPricingPage purchaseFromPeApp = new NewPricingPage(driver);
+        NewPricingPage purchaseFromPeApp = new NewPricingPage(driver);
         purchaseFromPeApp = purchaseFromPeApp.PePurchasePath();
 
         AssertAssertion assertBorrowerInfoElements = new AssertAssertion(driver);
@@ -310,7 +313,7 @@ public class SmokeTestOap {
         assertStepOneElements = assertStepOneElements.assertStepOnePage();
         StepOnePage OapStepOne = new StepOnePage(driver);
         //  = OapStepOne.selectLOAndSubmit();
-       // borrowerDetails.singleBorrower();
+        // borrowerDetails.singleBorrower();
 
 
         AssertAssertion assertBorrowerInfoElements = new AssertAssertion(driver);
@@ -441,7 +444,7 @@ public class SmokeTestOap {
         propertyDetails = propertyDetails.duRefiPropertyDetails();
 
         PropertyVerifyPage verifyPropertyLocation = new PropertyVerifyPage(driver);
-        verifyPropertyLocation = verifyPropertyLocation.verifyPropertyAddress();
+        verifyPropertyLocation = verifyPropertyLocation.DuRefiverifyPropertyAddress();
 
         IncomePage employmentInformation = new IncomePage(driver);
         employmentInformation = employmentInformation.employemenetInfo();
@@ -541,7 +544,7 @@ public class SmokeTestOap {
         confirm = confirm.confirm();
 
         SsnAndCreditPage apply = new SsnAndCreditPage(driver);
-       // apply = apply.SsnForDuApproval();
+        // apply = apply.SsnForDuApproval();
 
         // AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
         //assertPricingPageElements = assertPricingPageElements.assertPricingPage();
@@ -745,126 +748,126 @@ public class SmokeTestOap {
 
     }
 
-        @Test
-        public void testRefiOapWithCoBorrower() throws Exception {
+    @Test
+    public void testRefiOapWithCoBorrower() throws Exception {
 
-            HomePage onhomePage = new HomePage(driver);
-            onhomePage = onhomePage.launch();
+        HomePage onhomePage = new HomePage(driver);
+        onhomePage = onhomePage.launch();
 
-            AssertAssertion assertAssertion = new AssertAssertion(driver);
-            assertAssertion = assertAssertion.assertHomepage();
-            onhomePage = onhomePage.clickOnApply();
+        AssertAssertion assertAssertion = new AssertAssertion(driver);
+        assertAssertion = assertAssertion.assertHomepage();
+        onhomePage = onhomePage.clickOnApply();
 
-            AssertAssertion assertStepOneElements = new AssertAssertion(driver);
-            assertStepOneElements = assertStepOneElements.assertStepOnePage();
-            StepOnePage stepOne = new StepOnePage(driver);
-            stepOne = stepOne.RefiWithDuSingleBorrowerStepOnePage();
-
-
-            BorrowerDetailsPage borrowerDetails = new BorrowerDetailsPage(driver);
-            borrowerDetails = borrowerDetails.hasCoBorrower();
-
-            BorrowerDetailsPage coBorrowerInfo = new BorrowerDetailsPage(driver);
-            coBorrowerInfo = coBorrowerInfo.coBorrowerDetailsPage();
+        AssertAssertion assertStepOneElements = new AssertAssertion(driver);
+        assertStepOneElements = assertStepOneElements.assertStepOnePage();
+        StepOnePage stepOne = new StepOnePage(driver);
+        stepOne = stepOne.RefiWithDuSingleBorrowerStepOnePage();
 
 
-            ResidenceInfoPage residenceWithCoBorrower = new ResidenceInfoPage(driver);
-            residenceWithCoBorrower = residenceWithCoBorrower.jointResidence();
+        BorrowerDetailsPage borrowerDetails = new BorrowerDetailsPage(driver);
+        borrowerDetails = borrowerDetails.hasCoBorrower();
 
-            PropertyInfoPage subjectPropertyInfo = new PropertyInfoPage(driver);
-            subjectPropertyInfo = subjectPropertyInfo.refiPropertyDetails();
-
-            PropertyVerifyPage verifyPropertyLocation = new PropertyVerifyPage(driver);
-            verifyPropertyLocation = verifyPropertyLocation.verifyPropertyAddress();
-
-            IncomePage employmentInformation = new IncomePage(driver);
-            employmentInformation = employmentInformation.jointIncomeWithCoBorrowwer();
-
-            BankInfoPage bankInfo = new BankInfoPage(driver);
-            bankInfo = bankInfo.jointAccountWithCoBorrower();
-
-            DemoGraphicInfoPage requiredAnswers = new DemoGraphicInfoPage(driver);
-            requiredAnswers = requiredAnswers.coBorrowerDemographics();
-
-            DeclarationPage declare = new DeclarationPage(driver);
-            declare = declare.hasCoBorrowerQuestions();
-
-            EditOrVerifyInfoPage confirm = new EditOrVerifyInfoPage(driver);
-            confirm = confirm.confirm();
-
-            SsnAndCreditPage apply = new SsnAndCreditPage(driver);
-            apply = apply.applyWithCoBorrower();
+        BorrowerDetailsPage coBorrowerInfo = new BorrowerDetailsPage(driver);
+        coBorrowerInfo = coBorrowerInfo.coBorrowerDetailsPage();
 
 
-            AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
-            //assertPricingPageElements = assertPricingPageElements.assertPricingPage();
-            PricingPage selectPricing = new PricingPage(driver);
-            selectPricing = selectPricing.selectSkipPricing();
+        ResidenceInfoPage residenceWithCoBorrower = new ResidenceInfoPage(driver);
+        residenceWithCoBorrower = residenceWithCoBorrower.jointResidence();
 
-        }
+        PropertyInfoPage subjectPropertyInfo = new PropertyInfoPage(driver);
+        subjectPropertyInfo = subjectPropertyInfo.refiPropertyDetails();
 
-            @Test
-            public void testDuOapPurchaseWithCoBorrower() throws Exception {
+        PropertyVerifyPage verifyPropertyLocation = new PropertyVerifyPage(driver);
+        verifyPropertyLocation = verifyPropertyLocation.verifyPropertyAddress();
 
-                HomePage onhomePage = new HomePage(driver);
-                onhomePage = onhomePage.launch();
+        IncomePage employmentInformation = new IncomePage(driver);
+        employmentInformation = employmentInformation.jointIncomeWithCoBorrowwer();
 
-                AssertAssertion assertAssertion = new AssertAssertion(driver);
-                assertAssertion = assertAssertion.assertHomepage();
-                onhomePage = onhomePage.clickOnApply();
+        BankInfoPage bankInfo = new BankInfoPage(driver);
+        bankInfo = bankInfo.jointAccountWithCoBorrower();
 
-                AssertAssertion assertStepOneElements = new AssertAssertion(driver);
-                assertStepOneElements = assertStepOneElements.assertStepOnePage();
-                StepOnePage stepOne = new StepOnePage(driver);
-                stepOne = stepOne.LoanWithCoBorrower();
+        DemoGraphicInfoPage requiredAnswers = new DemoGraphicInfoPage(driver);
+        requiredAnswers = requiredAnswers.coBorrowerDemographics();
 
+        DeclarationPage declare = new DeclarationPage(driver);
+        declare = declare.hasCoBorrowerQuestions();
 
+        EditOrVerifyInfoPage confirm = new EditOrVerifyInfoPage(driver);
+        confirm = confirm.confirm();
 
-                BorrowerDetailsPage borrowerDetails = new BorrowerDetailsPage(driver);
-                borrowerDetails = borrowerDetails.hasCoBorrower();
-
-                BorrowerDetailsPage coBorrowerInfo = new BorrowerDetailsPage(driver);
-                coBorrowerInfo = coBorrowerInfo.coBorrowerDetailsPageForDu();
+        SsnAndCreditPage apply = new SsnAndCreditPage(driver);
+        apply = apply.applyWithCoBorrower();
 
 
-                ResidenceInfoPage residenceWithCoBorrower = new ResidenceInfoPage(driver);
-                residenceWithCoBorrower = residenceWithCoBorrower.jointResidenceForDuPurchase();
+        AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
+        //assertPricingPageElements = assertPricingPageElements.assertPricingPage();
+        PricingPage selectPricing = new PricingPage(driver);
+        selectPricing = selectPricing.selectSkipPricing();
 
-                PropertyInfoPage subjectPropertyInfo = new PropertyInfoPage(driver);
-                subjectPropertyInfo = subjectPropertyInfo.propertyDetails();
+    }
 
-                PropertyVerifyPage verifyPropertyLocation = new PropertyVerifyPage(driver);
-                verifyPropertyLocation = verifyPropertyLocation.verifyPropertyAddress();
+    @Test
+    public void testDuOapPurchaseWithCoBorrower() throws Exception {
 
-                IncomePage employmentInformation = new IncomePage(driver);
-                employmentInformation = employmentInformation.jointIncomeWithCoBorrowwer();
+        HomePage onhomePage = new HomePage(driver);
+        onhomePage = onhomePage.launch();
 
-                BankInfoPage bankInfo = new BankInfoPage(driver);
-                bankInfo = bankInfo.jointAccountWithCoBorrower();
+        AssertAssertion assertAssertion = new AssertAssertion(driver);
+        assertAssertion = assertAssertion.assertHomepage();
+        onhomePage = onhomePage.clickOnApply();
 
-                DemoGraphicInfoPage requiredAnswers = new DemoGraphicInfoPage(driver);
-                requiredAnswers = requiredAnswers.coBorrowerDemographics();
-
-                DeclarationPage declare = new DeclarationPage(driver);
-                declare = declare.hasCoBorrowerQuestions();
-
-                EditOrVerifyInfoPage confirm = new EditOrVerifyInfoPage(driver);
-                confirm = confirm.confirm();
-
-                SsnAndCreditPage apply = new SsnAndCreditPage(driver);
-                apply = apply.applyWithCoBorrower();
+        AssertAssertion assertStepOneElements = new AssertAssertion(driver);
+        assertStepOneElements = assertStepOneElements.assertStepOnePage();
+        StepOnePage stepOne = new StepOnePage(driver);
+        stepOne = stepOne.LoanWithCoBorrower();
 
 
 
-                AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
-                //assertPricingPageElements = assertPricingPageElements.assertPricingPage();
-                PricingPage selectPricing = new PricingPage(driver);
-                selectPricing = selectPricing.selectSkipPricing();
+        BorrowerDetailsPage borrowerDetails = new BorrowerDetailsPage(driver);
+        borrowerDetails = borrowerDetails.hasCoBorrower();
+
+        BorrowerDetailsPage coBorrowerInfo = new BorrowerDetailsPage(driver);
+        coBorrowerInfo = coBorrowerInfo.coBorrowerDetailsPageForDu();
+
+
+        ResidenceInfoPage residenceWithCoBorrower = new ResidenceInfoPage(driver);
+        residenceWithCoBorrower = residenceWithCoBorrower.jointResidenceForDuPurchase();
+
+        PropertyInfoPage subjectPropertyInfo = new PropertyInfoPage(driver);
+        subjectPropertyInfo = subjectPropertyInfo.propertyDetails();
+
+        PropertyVerifyPage verifyPropertyLocation = new PropertyVerifyPage(driver);
+        verifyPropertyLocation = verifyPropertyLocation.verifyPropertyAddress();
+
+        IncomePage employmentInformation = new IncomePage(driver);
+        employmentInformation = employmentInformation.jointIncomeWithCoBorrowwer();
+
+        BankInfoPage bankInfo = new BankInfoPage(driver);
+        bankInfo = bankInfo.jointAccountWithCoBorrower();
+
+        DemoGraphicInfoPage requiredAnswers = new DemoGraphicInfoPage(driver);
+        requiredAnswers = requiredAnswers.coBorrowerDemographics();
+
+        DeclarationPage declare = new DeclarationPage(driver);
+        declare = declare.hasCoBorrowerQuestions();
+
+        EditOrVerifyInfoPage confirm = new EditOrVerifyInfoPage(driver);
+        confirm = confirm.confirm();
+
+        SsnAndCreditPage apply = new SsnAndCreditPage(driver);
+        apply = apply.applyWithCoBorrower();
+
+
+
+        AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
+        //assertPricingPageElements = assertPricingPageElements.assertPricingPage();
+        PricingPage selectPricing = new PricingPage(driver);
+        selectPricing = selectPricing.selectSkipPricing();
 
 
 
 
-            }
+    }
     @Test
     public void testDuRefiOapWithCoBorrower() throws Exception {
 
@@ -935,10 +938,10 @@ public class SmokeTestOap {
         driver.quit();
 
         String verificationErrorString = verificationErrors.toString();
-       if (!"".equals(verificationErrorString)) {
-           // fail(verificationErrorString);
+        if (!"".equals(verificationErrorString)) {
+            // fail(verificationErrorString);
         }
- }
+    }
 
     private boolean isElementPresent(By by) {
         try {
@@ -959,7 +962,7 @@ public class SmokeTestOap {
 
     }
 
-   private String closeAlertAndGetItsText() {
+    private String closeAlertAndGetItsText() {
         try {
             Alert alert = driver.switchTo().alert();
             String alertText = alert.getText();
@@ -977,4 +980,6 @@ public class SmokeTestOap {
 
     }
 }
+
+
 

@@ -21,7 +21,7 @@ public class NewPricingPage extends PageObjectBase{
 
     public NewPricingPage PePurchasePath() throws InterruptedException {
 
-        driver.get("https://bpui.gr-dev.com");
+        driver.get("https://bpui.gr-stage.com");
         Thread.sleep(500);
         driver.findElement(By.xpath("//button[@type='button']")).click();
         Thread.sleep(500);

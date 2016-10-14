@@ -25,7 +25,7 @@ public class HomePage extends PageObjectBase {
 
 
 
-       //  driver.findElement(By.linkText("Apply now")).click();
+      //  driver.findElement(By.linkText("Apply now")).click();
 
 
          driver.findElement(By.xpath("//a[@class='button button-secondary button-small']")).click();
@@ -37,8 +37,8 @@ public class HomePage extends PageObjectBase {
 
     public HomePage launch(){
 
-       // driver.get(Constant.dev);
-        driver.get(Constant.Stage);
+        driver.get(Constant.dev);
+      //  driver.get(Constant.Stage);
       // driver.get(Constant.prod);
 
 
