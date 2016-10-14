@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ae29c4-3c04-4e12-803b-a3d3ab6587ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testCases/RegressionTestDevDigitalMortgage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/testCases/RegressionTestStageDigitalMortgage.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/testCases/SmokeTestOap.java" afterPath="$PROJECT_DIR$/src/testCases/RegressionTestProdDigitalMortgage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/HomePage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/HomePage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PropertyInfoPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PropertyInfoPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/StepOnePage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/StepOnePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PropertyVerifyPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/PropertyVerifyPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ResidenceInfoPage.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/pageObjects/ResidenceInfoPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/SmokeTestOap.class" afterPath="$PROJECT_DIR$/out/production/QaAutomationSuite/testCases/SmokeTestOap.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utilities/TestParameters.java" afterPath="$PROJECT_DIR$/src/Utilities/TestParameters.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/HomePage.java" afterPath="$PROJECT_DIR$/src/pageObjects/HomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/NewPricingPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/NewPricingPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java" afterPath="$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pageObjects/StepOnePage.java" afterPath="$PROJECT_DIR$/src/pageObjects/StepOnePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/testCases/TestBorrowerComesWithPricing.java" afterPath="$PROJECT_DIR$/src/testCases/TestBorrowerComesWithPricing.java" />
     </list>
     <ignored path="QaAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RegressionTestProdDigitalMortgage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testCases/RegressionTestProdDigitalMortgage.java">
+      <file leaf-file-name="HomePage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pageObjects/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="980" column="0" selection-start-line="71" selection-start-column="3" selection-end-line="980" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5034843">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepOnePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/StepOnePage.java">
+      <file leaf-file-name="RegressionTestProdDigitalMortgage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testCases/RegressionTestProdDigitalMortgage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="393" column="0" selection-start-line="393" selection-start-column="0" selection-end-line="393" selection-end-column="0" />
+              <caret line="980" column="0" selection-start-line="71" selection-start-column="3" selection-end-line="980" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,19 +108,17 @@
         <entry file="file://$PROJECT_DIR$/src/testCases/RegressionTestDevDigitalMortgage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="6" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegressionTestStageDigitalMortgage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RegressionTestStageDigitalMortgage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testCases/RegressionTestStageDigitalMortgage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5400908">
-              <caret line="225" column="80" selection-start-line="225" selection-start-column="80" selection-end-line="225" selection-end-column="80" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="246" column="82" selection-start-line="246" selection-start-column="82" selection-end-line="246" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,17 +130,17 @@
         <entry file="file://$PROJECT_DIR$/src/Utilities/Constant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyVerifyPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java">
+      <file leaf-file-name="SmokeTestGrDotCom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testCases/SmokeTestGrDotCom.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -193,7 +183,6 @@
         <option value="$PROJECT_DIR$/src/pageObjects/GrDotComeRefiPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/GrDotComBuyingHomePage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/GrDotComeMortgageCalculatorPage.java" />
-        <option value="$PROJECT_DIR$/src/testCases/TestBorrowerComesWithPricing.java" />
         <option value="$PROJECT_DIR$/src/testCases/TestOapForTexas.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/GrDotComHomeLoansPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/PricingForOne.java" />
@@ -229,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/pageObjects/PageObjectBase.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/NewPricingPage.java" />
         <option value="$PROJECT_DIR$/src/elementLocators/LocatorsForOap.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/HomePage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/ResidenceInfoPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/PropertyInfoPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/PropertyVerifyPage.java" />
@@ -239,6 +227,8 @@
         <option value="$PROJECT_DIR$/src/testCases/TestDevDm.java" />
         <option value="$PROJECT_DIR$/src/testCases/TestStageDm.java" />
         <option value="$PROJECT_DIR$/src/testCases/RegressionTestStageDigitalMortgage.java" />
+        <option value="$PROJECT_DIR$/src/testCases/TestBorrowerComesWithPricing.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/HomePage.java" />
       </list>
     </option>
   </component>
@@ -417,6 +407,116 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="JUnit.RegressionTestProdDigitalMortgage.testDuApprovalForRefi">
     <configuration default="false" name="RegressionTestProdDigitalMortgage.TestOapForSingleBorrower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -936,7 +1036,13 @@
       <option name="project" value="LOCAL" />
       <updated>1476380450094</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="co-borrower test added">
+      <created>1476467384135</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1476467384135</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -990,8 +1096,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.96239316" sideWeight="0.4183056" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06076759" sideWeight="0.48218527" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23188406" sideWeight="0.5816944" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23188406" sideWeight="0.5816944" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32441473" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20309168" sideWeight="0.46630728" order="3" side_tool="false" content_ui="combo" />
@@ -1174,13 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testCases/SmokeTestGrDotCom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4506024">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/selenium-firefox-driver-2.26.0.jar!/org/openqa/selenium/firefox/FirefoxBinary.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34545454">
@@ -1319,16 +1418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pageObjects/BankInfoPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1399,15 +1488,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilities/Constant.java">
+    <entry file="file://$PROJECT_DIR$/src/Utilities/ExcelUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utilities/ExcelUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/testCases/RegressionTestProdDigitalMortgage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="980" column="0" selection-start-line="71" selection-start-column="3" selection-end-line="980" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testCases/RegressionTestStageDigitalMortgage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="246" column="82" selection-start-line="246" selection-start-column="82" selection-end-line="246" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utilities/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testCases/SmokeTestGrDotCom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -1428,27 +1545,15 @@
     <entry file="file://$PROJECT_DIR$/src/testCases/RegressionTestDevDigitalMortgage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="61" selection-start-line="76" selection-start-column="61" selection-end-line="76" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="6" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testCases/RegressionTestProdDigitalMortgage.java">
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="980" column="0" selection-start-line="71" selection-start-column="3" selection-end-line="980" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testCases/RegressionTestStageDigitalMortgage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5400908">
-          <caret line="225" column="80" selection-start-line="225" selection-start-column="80" selection-end-line="225" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.5034843">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

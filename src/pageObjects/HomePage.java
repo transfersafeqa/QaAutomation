@@ -25,30 +25,44 @@ public class HomePage extends PageObjectBase {
 
 
 
-      //  driver.findElement(By.linkText("Apply now")).click();
+        driver.findElement(By.linkText("Apply now")).click();
 
 
-         driver.findElement(By.xpath("//a[@class='button button-secondary button-small']")).click();
+        // driver.findElement(By.xpath("//a[@class='button button-secondary button-small']")).click();
 
         return new HomePage(driver);
 
     }
 
 
-    public HomePage launch(){
+    public HomePage launchInDev(){
 
         driver.get(Constant.dev);
-      //  driver.get(Constant.Stage);
-      // driver.get(Constant.prod);
+
 
 
         return new HomePage(driver);
     }
+    public HomePage launchInStage() {
+
+
+          driver.get(Constant.Stage);
 
 
 
+        return new HomePage(driver);
+
+    }
+    public HomePage launchInProd() {
 
 
+         driver.get(Constant.prod);
+
+
+        return new HomePage(driver);
+
+
+    }
 
 
     public HomePage LaunchFromVPpage(){
