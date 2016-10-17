@@ -50,7 +50,7 @@ public class ToDoListPage extends PageObjectBase {
         driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("7732222222");
 
 
-        driver.findElement(By.xpath("//a[@ng-click='save()']")).click();
+       // driver.findElement(By.xpath("//a[@ng-click='save()']")).click();
 
         return new ToDoListPage(driver);
     }

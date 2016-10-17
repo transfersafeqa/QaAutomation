@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
+//import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import pageObjects.*;
@@ -39,7 +39,10 @@ public class RegressionTestStageDigitalMortgage {
     @Before
     public void testSetUP() throws MalformedURLException {
 
+     // To run the test in SauceLabs, we need to use selenium GRID, it makes this test a Hub and saucelab node
+        //Run this is command prompt to activate Hub?node role (  C:\>java -jar selenium-server-standalone-2.53.0.jar -role hub )
 
+        //You can run test simultaneoulsy in saucelabs as well as in this machine, by creating multiple nodes
         // System.setProperty("webdriver.ie.driver", "C://users/rsangroula/IEDriverServer.exe");
         System.setProperty("webdriver.chrome.driver", "C://chromedriver/chromedriver.exe");
         // System.setProperty("phantomjs.binary.path", "capability/system property/bin/phantomjs.exe");

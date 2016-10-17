@@ -43,6 +43,11 @@ public class RegressionTestDevDigitalMortgage {
     public void testSetUP() throws MalformedURLException {
 
 
+        // To run the test in SauceLabs, we need to use selenium GRID, it makes this test a Hub and saucelab node
+        //Run this is command prompt to activate Hub?node role (  C:\>java -jar selenium-server-standalone-2.53.0.jar -role hub )
+
+        //You can run test simultaneoulsy in saucelabs as well as in this machine, by creating multiple nodes
+
         // System.setProperty("webdriver.ie.driver", "C://users/rsangroula/IEDriverServer.exe");
         System.setProperty("webdriver.chrome.driver", "C://chromedriver/chromedriver.exe");
         // System.setProperty("phantomjs.binary.path", "capability/system property/bin/phantomjs.exe");
@@ -50,6 +55,7 @@ public class RegressionTestDevDigitalMortgage {
         // FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
         // FirefoxProfile firefoxProfile = new FirefoxProfile();
         //driver = new FirefoxDriver(ffBinary,firefoxProfile);
+        //Uncomment Below nodeURL with saucelabs access userid to run test in sauce lab.
         // nodeURL = "http://" + "rsangroula1" + ":" + "c654463e-db97-494c-ae82-4c037f087d1f" + "@ondemand.saucelabs.com:80/wd/hub";
         // nodeURL = "http://10.2.49.19:5566/wd/hub";
         DesiredCapabilities capability = DesiredCapabilities.chrome();
