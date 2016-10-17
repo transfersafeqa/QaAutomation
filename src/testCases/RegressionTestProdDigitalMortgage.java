@@ -128,7 +128,143 @@ public class RegressionTestProdDigitalMortgage {
         System.out.println("Test Passed");
     }
 
+    @Test
+    public void TestCompleteOapAndGoToTs() throws Exception{
 
+        HomePage onhomePage = new HomePage(driver);
+        onhomePage = onhomePage.launchInProd();
+
+        AssertAssertion assertAssertion = new AssertAssertion(driver);
+        assertAssertion = assertAssertion.assertHomepage();
+        onhomePage = onhomePage.clickOnApply();
+
+        AssertAssertion assertStepOneElements = new AssertAssertion(driver);
+        assertStepOneElements = assertStepOneElements.assertStepOnePage();
+        StepOnePage OapStepOne = new StepOnePage(driver);
+        OapStepOne = OapStepOne.RefiWithDuSingleBorrowerStepOnePage();
+
+
+        AssertAssertion assertBorrowerInfoElements = new AssertAssertion(driver);
+        // assertBorrowerInfoElements = assertStepOneElements.borrowerInfoPage();
+        BorrowerDetailsPage borrowerDetails = new BorrowerDetailsPage(driver);
+        borrowerDetails = borrowerDetails.singleBorrower();
+
+        AssertAssertion assertResidenceInfoPage = new AssertAssertion(driver);
+        //assertResidenceInfoPage = assertResidenceInfoPage.residenceInfoPage();
+        ResidenceInfoPage residence = new ResidenceInfoPage(driver);
+        residence = residence.duRefiCurrentResidence();
+
+        PropertyInfoPage propertyDetails = new PropertyInfoPage(driver);
+        propertyDetails = propertyDetails.duRefiPropertyDetails();
+
+        PropertyVerifyPage verifyPropertyLocation = new PropertyVerifyPage(driver);
+        verifyPropertyLocation = verifyPropertyLocation.DuRefiverifyPropertyAddress();
+
+        IncomePage employmentInformation = new IncomePage(driver);
+        employmentInformation = employmentInformation.employemenetInfo();
+
+        BankInfoPage bankInfo = new BankInfoPage(driver);
+        bankInfo = bankInfo.bankingInfo();
+
+        DemoGraphicInfoPage requiredAnswers = new DemoGraphicInfoPage(driver);
+        requiredAnswers = requiredAnswers.demographics();
+
+        DeclarationPage declare = new DeclarationPage(driver);
+        declare = declare.singleBorrowerQuestions();
+
+        EditOrVerifyInfoPage confirm = new EditOrVerifyInfoPage(driver);
+        confirm = confirm.confirm();
+
+        SsnAndCreditPage apply = new SsnAndCreditPage(driver);
+        apply = apply.SsnForDuApproval();
+
+        AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
+        assertPricingPageElements = assertPricingPageElements.assertPricingPage();
+
+        PricingPage selectPricing = new PricingPage(driver);
+        selectPricing = selectPricing.selectLoan();
+
+        ThankYouPage OnThankyouPage = new ThankYouPage(driver);
+        OnThankyouPage = OnThankyouPage.ClickOnDownLoadButton();
+        OnThankyouPage = OnThankyouPage .GoToTransferSafeFromThankYouPage();
+
+
+
+
+
+
+
+
+    }
+
+    @Test
+    public void TestCompleteOapAndUploadDocs() throws Exception{
+
+        HomePage onhomePage = new HomePage(driver);
+        onhomePage = onhomePage.launchInProd();
+
+        AssertAssertion assertAssertion = new AssertAssertion(driver);
+        assertAssertion = assertAssertion.assertHomepage();
+        onhomePage = onhomePage.clickOnApply();
+
+        AssertAssertion assertStepOneElements = new AssertAssertion(driver);
+        assertStepOneElements = assertStepOneElements.assertStepOnePage();
+        StepOnePage OapStepOne = new StepOnePage(driver);
+        OapStepOne = OapStepOne.RefiWithDuSingleBorrowerStepOnePage();
+
+
+        AssertAssertion assertBorrowerInfoElements = new AssertAssertion(driver);
+        // assertBorrowerInfoElements = assertStepOneElements.borrowerInfoPage();
+        BorrowerDetailsPage borrowerDetails = new BorrowerDetailsPage(driver);
+        borrowerDetails = borrowerDetails.singleBorrower();
+
+        AssertAssertion assertResidenceInfoPage = new AssertAssertion(driver);
+        //assertResidenceInfoPage = assertResidenceInfoPage.residenceInfoPage();
+        ResidenceInfoPage residence = new ResidenceInfoPage(driver);
+        residence = residence.duRefiCurrentResidence();
+
+        PropertyInfoPage propertyDetails = new PropertyInfoPage(driver);
+        propertyDetails = propertyDetails.duRefiPropertyDetails();
+
+        PropertyVerifyPage verifyPropertyLocation = new PropertyVerifyPage(driver);
+        verifyPropertyLocation = verifyPropertyLocation.DuRefiverifyPropertyAddress();
+
+        IncomePage employmentInformation = new IncomePage(driver);
+        employmentInformation = employmentInformation.employemenetInfo();
+
+        BankInfoPage bankInfo = new BankInfoPage(driver);
+        bankInfo = bankInfo.bankingInfo();
+
+        DemoGraphicInfoPage requiredAnswers = new DemoGraphicInfoPage(driver);
+        requiredAnswers = requiredAnswers.demographics();
+
+        DeclarationPage declare = new DeclarationPage(driver);
+        declare = declare.singleBorrowerQuestions();
+
+        EditOrVerifyInfoPage confirm = new EditOrVerifyInfoPage(driver);
+        confirm = confirm.confirm();
+
+        SsnAndCreditPage apply = new SsnAndCreditPage(driver);
+        apply = apply.SsnForDuApproval();
+
+        AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
+        assertPricingPageElements = assertPricingPageElements.assertPricingPage();
+
+        PricingPage selectPricing = new PricingPage(driver);
+        selectPricing = selectPricing.selectLoan();
+
+        ThankYouPage OnThankyouPage = new ThankYouPage(driver);
+        OnThankyouPage = OnThankyouPage.ClickOnDownLoadButton();
+        OnThankyouPage = OnThankyouPage .GoToTransferSafeFromThankYouPage();
+
+
+
+
+
+
+
+
+    }
 
     @ Test
     public void TestOapForVaLoanSingleBorrower() throws Exception {

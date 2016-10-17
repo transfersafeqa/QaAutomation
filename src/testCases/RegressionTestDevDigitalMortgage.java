@@ -69,7 +69,7 @@ public class RegressionTestDevDigitalMortgage {
 
     public void testShutDown() {
 
-         driver.quit();
+        // driver.quit();
 
     }
 

@@ -33,5 +33,15 @@ public class ToDoListPage extends PageObjectBase {
         return new ToDoListPage(driver);
     }
 
+    public ToDoListPage CompleteHOI(){
+        driver.findElement(By.xpath("//span[contains(.,'Homeowners Insurance Info')]")).click();
+
+        driver.findElement(By.xpath("//input[@ng-model='loaninsurance.InsuranceCompanyName']")).sendKeys("Test Insurance");
+        driver.findElement(By.xpath("//input[@ng-model='loaninsurance.InsuranceAgentName']")).sendKeys("Test Agent");
+        driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("7732222222");
+        driver.findElement(By.xpath("//a[contains(.,'Save and See Next Task')]")).click();
+        return new ToDoListPage(driver);
+    }
+
 
 }

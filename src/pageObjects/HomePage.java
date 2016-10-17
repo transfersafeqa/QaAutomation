@@ -24,13 +24,8 @@ public class HomePage extends PageObjectBase {
     public HomePage clickOnApply() {
 
 
-        driver.findElement(By.xpath("(//a[contains(text(),'Apply Now')])[2]")).click();
-        //driver.findElement(By.xpath("(//a[contains(@href, 'https://app.guaranteedrate.com/account/signup')])[3]")).click();
+        driver.findElement(By.linkText("Apply now")).click();
 
-       // driver.findElement(By.linkText("Apply now")).click();
-
-       // driver.findElement(By.xpath("//a[contains(.,'Apply now')]")).click();
-        // driver.findElement(By.xpath("//a[@class='button button-secondary button-small']")).click();
 
         return new HomePage(driver);
 

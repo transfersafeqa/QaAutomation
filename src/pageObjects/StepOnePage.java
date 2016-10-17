@@ -388,7 +388,7 @@ public class StepOnePage extends PageObjectBase {
         driver.findElement(LocatorsForOap.loanOfficerYesButton).click();
         driver.findElement(LocatorsForOap.loanOfficerNameBox).clear();
         driver.findElement(LocatorsForOap.loanOfficerNameBox).sendKeys(TestParameters.TestLoanOfficer);
-        driver.findElement(By.xpath("//a[contains(.,'Alan Ouye')]")).click();
+        driver.findElement(By.xpath("//a[contains(.,'John Sample')]")).click();
 
        driver.findElement(LocatorsForOap.stepOneSubmitButton).click();
 

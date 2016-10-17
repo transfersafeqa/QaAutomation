@@ -16,20 +16,27 @@ public class AssertAssertion extends PageObjectBase {
     }
 
     public AssertAssertion assertHomepage() {
-       // driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        /*assertEquals("Mortgages, Mortgage Home Buying, Refinance Mortgage | Guaranteed Rate", driver.getTitle());
-        assertTrue(isElementPresent(By.linkText("(866) 934-7283")));
-        assertTrue(isElementPresent(By.xpath("(//a[contains(text(),'Mortgage Rates')])[2]")));
-        assertTrue(isElementPresent(By.linkText("Log In")));
-        assertTrue(isElementPresent(By.xpath("(//a[contains(text(),'Apply Now')])[2]")));
-        assertTrue(isElementPresent(By.xpath("//form[@id='loanOptionsForm']/div/div[2]")));
+
         assertEquals("Mortgages, Mortgage Home Buying, Refinance Mortgage | Guaranteed Rate", driver.getTitle());
-        assertTrue(isElementPresent(By.cssSelector("a.logo-nav > img")));*/
+        assertTrue(isElementPresent(By.linkText("Apply now")));
+        assertTrue(isElementPresent(By.linkText("Explore loan options")));
+
+       /* assertEquals("Mortgage Calculators", driver.findElement(By.linkText("Mortgage Calculators")).getText());
+        assertEquals("Mortgage Advice", driver.findElement(By.linkText("Mortgage Advice")).getText());
+        assertEquals("NMLS Consumer Access", driver.findElement(By.linkText("NMLS Consumer Access")).getText());
+        assertEquals("Texas Consumers: How to File a Complaint", driver.findElement(By.linkText("Texas Consumers: How to File a Complaint")).getText());
+        assertEquals("Delaware Licensed Loan Officers", driver.findElement(By.linkText("Delaware Licensed Loan Officers")).getText());
+        assertEquals("Site Map", driver.findElement(By.linkText("Site Map")).getText());
+        assertEquals("Licensing", driver.findElement(By.linkText("Licensing")).getText());
+        assertEquals("Disclaimer", driver.findElement(By.linkText("Disclaimer")).getText());
+        assertEquals("Terms of Use", driver.findElement(By.linkText("Terms of Use")).getText());
+        assertEquals("Privacy Policy", driver.findElement(By.linkText("Privacy Policy")).getText());*/
+
         return new AssertAssertion(driver);
     }
 
     public AssertAssertion assertGrDotComViewAllLoansPage(){
-      /*  assertEquals("Mortgages, Mortgage Home Buying, Refinance Mortgage | Guaranteed Rate", driver.getTitle());
+       assertEquals("Mortgages, Mortgage Home Buying, Refinance Mortgage | Guaranteed Rate", driver.getTitle());
         assertEquals("Get Mortgage Rates | Guaranteed Rate", driver.getTitle());
         assertTrue(isElementPresent(By.linkText("Buying a Home")));
         assertTrue(isElementPresent(By.linkText("Refinance")));
@@ -38,7 +45,7 @@ public class AssertAssertion extends PageObjectBase {
         assertTrue(isElementPresent(By.linkText("Calculators")));
         assertTrue(isElementPresent(By.linkText("Insurance")));
         assertTrue(isElementPresent(By.linkText("About Us")));
-        assertTrue(isElementPresent(By.id("searchBox")));*/
+        assertTrue(isElementPresent(By.id("searchBox")));
 
         return new AssertAssertion(driver);
     }
