@@ -257,6 +257,10 @@ public class RegressionTestProdDigitalMortgage {
         OnThankyouPage = OnThankyouPage.ClickOnDownLoadButton();
         OnThankyouPage = OnThankyouPage .GoToTransferSafeFromThankYouPage();
 
+        ToDoListPage completeHOI = new ToDoListPage(driver);
+        completeHOI = completeHOI.CompleteHOI();
+
+
 
 
 
@@ -738,8 +742,7 @@ public class RegressionTestProdDigitalMortgage {
         SsnAndCreditPage apply = new SsnAndCreditPage(driver);
         apply = apply.applyDigitalMortgage();
 
-        // AssertAssertion assertPricingPageElements = new AssertAssertion(driver);
-        //assertPricingPageElements = assertPricingPageElements.assertPricingPage();
+
         PricingPage selectPricing = new PricingPage(driver);
         selectPricing = selectPricing.selectLoan();
 

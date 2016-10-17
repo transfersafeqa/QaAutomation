@@ -2,6 +2,9 @@ package pageObjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * Created by rsangroula on 6/18/2015.
@@ -34,12 +37,21 @@ public class ToDoListPage extends PageObjectBase {
     }
 
     public ToDoListPage CompleteHOI(){
+
+
+        WebDriverWait wait = new WebDriverWait(driver, 90);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[contains(.,'Homeowners Insurance Info')]")));
+
+
         driver.findElement(By.xpath("//span[contains(.,'Homeowners Insurance Info')]")).click();
 
         driver.findElement(By.xpath("//input[@ng-model='loaninsurance.InsuranceCompanyName']")).sendKeys("Test Insurance");
         driver.findElement(By.xpath("//input[@ng-model='loaninsurance.InsuranceAgentName']")).sendKeys("Test Agent");
         driver.findElement(By.xpath("//input[@type='tel']")).sendKeys("7732222222");
-        driver.findElement(By.xpath("//a[contains(.,'Save and See Next Task')]")).click();
+
+
+        driver.findElement(By.xpath("//a[@ng-click='save()']")).click();
+
         return new ToDoListPage(driver);
     }
 
