@@ -1,11 +1,7 @@
 package testCases;
 import java.lang.String;
-import java.net.URL;
-import java.sql.DriverManager;
 import java.util.concurrent.TimeUnit;
 import java.net.MalformedURLException;
-
-import java.sql.*;
 
 import org.junit.*;
 import org.openqa.selenium.*;
@@ -14,9 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.Select;
+//import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import pageObjects.*;
 //@RunWith(Parameterized.class)
 
@@ -251,7 +245,8 @@ public class RegressionTestStageDigitalMortgage {
 
 
         NewPricingPage purchaseFromPeApp = new NewPricingPage(driver);
-        purchaseFromPeApp = purchaseFromPeApp.PePurchasePath();
+        purchaseFromPeApp = purchaseFromPeApp.BpuiStage();
+        purchaseFromPeApp = purchaseFromPeApp.BpuiPurchasePath();
 
         AssertAssertion assertBorrowerInfoElements = new AssertAssertion(driver);
         // assertBorrowerInfoElements = assertStepOneElements.borrowerInfoPage();

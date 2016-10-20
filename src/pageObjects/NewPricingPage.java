@@ -3,6 +3,7 @@ package pageObjects;
 /**
  * Created by rsangroula on 4/28/2016.
  */
+import Utilities.Constant;
 import elementLocators.LocatorsForOap;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -19,9 +20,28 @@ public class NewPricingPage extends PageObjectBase{
         super(driver);
     }
 
-    public NewPricingPage PePurchasePath() throws InterruptedException {
+    public NewPricingPage BpuiDev() throws InterruptedException {
 
-        driver.get("https://bpui.gr-stage.com");
+        driver.get(Constant.DevILF);
+
+        return new NewPricingPage(driver);
+    }
+    public NewPricingPage BpuiStage() throws InterruptedException {
+
+        driver.get(Constant.StageILF);
+
+        return new NewPricingPage(driver);
+    }
+    public NewPricingPage BpuiProd() throws InterruptedException {
+
+        driver.get(Constant.ProdILF);
+
+        return new NewPricingPage(driver);
+    }
+
+    public NewPricingPage BpuiPurchasePath() throws InterruptedException {
+
+
         Thread.sleep(500);
         driver.findElement(By.xpath("//button[@type='button']")).click();
         Thread.sleep(500);
@@ -63,9 +83,9 @@ public class NewPricingPage extends PageObjectBase{
         driver.findElement(By.xpath("(//button[@type='button'])[33]")).click();
         Thread.sleep(2000);
         driver.findElement(By.id("LOName")).clear();
-        driver.findElement(By.id("LOName")).sendKeys("caltabiano");
+        driver.findElement(By.id("LOName")).sendKeys("sample");
         driver.findElement(By.id("LOName")).clear();
-        driver.findElement(By.id("LOName")).sendKeys("joe caltabiano");
+        driver.findElement(By.id("LOName")).sendKeys("john sample");
         driver.findElement(By.cssSelector("li")).click();
         Thread.sleep(12000);
        // driver.findElement(By.xpath("//div[2]/button")).click();
@@ -96,5 +116,7 @@ public class NewPricingPage extends PageObjectBase{
 
         return new NewPricingPage(driver);
     }
+
+
 }
 

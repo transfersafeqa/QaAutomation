@@ -64,7 +64,7 @@ public class HomePage extends PageObjectBase {
 
     public HomePage LaunchFromVPpage(){
 
-     driver.get("https://www.guaranteedrate.com/loan-expert/michaelpond");
+     driver.get("https://www.guaranteedrate.com/loan-expert/johnsample");
 
 
         return new HomePage(driver);
